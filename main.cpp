@@ -2,7 +2,8 @@
 #include "util.h"
 #include <iostream>
 
-
+#define READ_MODE 0;
+#define WRITE_MODE 1;
 // Cannot Scroll -> Needs we need a page datastructure and render the boxes dynamically ..!
 
 // We Will Do THIS
@@ -22,10 +23,16 @@ struct Control{
     WINDOW **windowList;
     WINDOW *currWindow;
     
+    int MODE;
     int Row,Col;
     int currentIndex;
-    Control(WINDOW **wl,int r, int c) : posY(0), posX(0),windowList(wl),currWindow(wl[0]),Row(r),Col(c),currentIndex(0){
+    
+    int sbHt, sbWd;
+    Control(WINDOW **wl,int r, int c,int ht,int wd) : posY(0), posX(0),windowList(wl),currWindow(wl[0]),MODE(0),Row(r),Col(c),currentIndex(0),
+    sbHt(ht), sbWd(wd){
         moveUtility();
+        wbkgd(windowList[0],COLOR_PAIR(2));
+        wrefresh(windowList[0]);
     }
 
     int moveCursor(char trigger){
@@ -61,18 +68,68 @@ struct Control{
             }
             break;
         default:
-            return -1;
+            return 0;
             break;
         }
         moveUtility();
         return 1;
     }
 
+    int changeMode(char trigger){
+        char a;
+        int val = 0;
+        switch (trigger)
+        {
+        case '\n':
+            MODE=WRITE_MODE;
+            wbkgd(windowList[0],COLOR_PAIR(1));
+            wmove(currWindow,sbHt/2,sbWd/2);
+            wrefresh(currWindow);
+                        
+            while((a=getch())!='\n'){
+                val = val*10 + (a-48);  
+            }
+            char * thing;
+            asprintf(&thing, "%d", val);
+            // wattron(currWindow,A_BOLD);
+            // wattron(currWindow,COLOR_PAIR(1));
+            // attron(COLOR_PAIR(1));
+            print_in_middle(currWindow,sbHt/2,0,sbWd,thing);
+            free(thing);
+            wmove(currWindow,0,0);
+            wbkgd(windowList[0],COLOR_PAIR(2));
+            wrefresh(currWindow);
+            return 1;
+            break;
+        default:
+            return 0;
+            break;
+        }
+        moveUtility();
+        return 0;
+    }
+
+    // int writeText(char trigger){
+    //     if(MODE){
+    //         char * thing;
+    //         asprintf(&thing, "%C", trigger);
+    //         // wattron(currWindow,A_BOLD);
+    //         // wattron(currWindow,COLOR_PAIR(1));
+    //         // attron(COLOR_PAIR(1));
+    //         print_in_middle(currWindow,sbHt/2,1,sbWd-2,thing);
+    //         free(thing);
+    //         // attroff(COLOR_PAIR(1));
+    //         return 1;
+    //     }
+    //     return 0;
+    // }
 private:
 
     void moveUtility(){
+        wbkgd(currWindow,COLOR_PAIR(7));
         currWindow = windowList[currentIndex];
         wmove(currWindow,0,0);
+        wbkgd(currWindow,COLOR_PAIR(2));
         refresh();
         wrefresh(currWindow);
     }
@@ -125,7 +182,7 @@ int main(){
     
     int cellsPerRow = 4,cellsPerColumn = 4;
 
-    int rows=5,columns=5;    
+    int rows=4,columns=4;    
     int sbHt = (bdMainBox->height)/cellsPerRow,sbWd = (bdMainBox->width)/cellsPerColumn;
 
     int ColorVal = 0;
@@ -153,18 +210,22 @@ int main(){
         }
         
     }
-    // wbkgd(SubBoxes[0],COLOR_PAIR(10));
-    // wrefresh(SubBoxes[0]);
+    
 
 
     int mRow=0;
     char c;
 
-    Control *controlPtr = new Control(SubBoxes,rows,columns);
+    Control *controlPtr = new Control(SubBoxes,rows,columns,sbHt,sbWd);
     while((c=getch()) != 'q'){
-
-        controlPtr->moveCursor(c);
-
+        if(!controlPtr->moveCursor(c)){
+            controlPtr->changeMode(c);
+            // if(){
+            //     //  controlPtr->writeText(c);
+            // }
+        }
+    
+       
         // mRow++;
         // if(mRow>(bdMainBox->height) - 2){
         //     mRow = 1;
