@@ -82,7 +82,7 @@ struct Control{
         case '\n':
             MODE=WRITE_MODE;
             // wbkgd(windowList[0],COLOR_PAIR(1));
-            move(0,0);
+            move(22,0);
             printw("Press Enter Key To exit edit mode");
             refresh();
             print_in_middle(currWindow,(sbHt-2)/2,0,sbWd,"      ");
@@ -104,7 +104,7 @@ struct Control{
                 asprintf(&thing, "%d", val);
                 print_in_middle(currWindow,(sbHt-2)/2,0,sbWd,thing);
             }
-            wmove(stdscr,0,0);
+            wmove(stdscr,22,0);
             wprintw(stdscr,"Are u sure to update? Enter 'y' if yes or 'n' otherwise");
             if(getch()=='y'){
                 if(overwritten){
@@ -116,6 +116,7 @@ struct Control{
                 if(vals[currentIndex]!= -1){
                     val = vals[currentIndex];
                     asprintf(&thing, "%d", val);
+                    print_in_middle(currWindow,(sbHt-2)/2,0,sbWd,"      ");
                     print_in_middle(currWindow,(sbHt-2)/2,0,sbWd,thing);
                 }else{
                     
@@ -127,7 +128,7 @@ struct Control{
             // clear();
             if(overwritten)
                 free(thing);
-            wmove(stdscr,0,0);
+            wmove(stdscr,22,0);
             clrtoeol();
             wrefresh(stdscr);
             wmove(currWindow,0,0);
@@ -184,10 +185,12 @@ int main(){
     getmaxyx(stdscr, maxY, maxX);
 
     //Main Box
-    bounds* bdMainBox = new bounds(19,35,5,10);
+    bounds* bdMainBox = new bounds(19,35,6,10);
 
     refresh();
     // wrefresh(mainBox);
+    wmove(stdscr,0,0);
+    wprintw(stdscr,"Instructions:\nPress WASD keys to move in between the cells\nPress ENTER to edit a cell\nPress Q to quit the program");
     
     int cellsPerRow = 4,cellsPerColumn = 4;
     int rows=4,columns=4;    
@@ -198,7 +201,7 @@ int main(){
     
     wattron(stdscr,COLOR_PAIR(1));
     int k =1; 
-    for(int i=6; i<20; i=i+rows){
+    for(int i=7; i<20; i=i+rows){
         wmove(stdscr,i,0);
         wprintw(stdscr,"Stduent %d",k);
         k++;
@@ -210,7 +213,7 @@ int main(){
     k=1;
     wattron(stdscr,COLOR_PAIR(1));
     for(int i=11; i<37; i=i+8){
-        wmove(stdscr,3,i);
+        wmove(stdscr,5,i);
         wprintw(stdscr,"Prof %d",k);
         k++;
         refresh();
