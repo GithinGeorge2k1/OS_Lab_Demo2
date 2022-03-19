@@ -188,7 +188,7 @@ int main(){
     bounds* bdMainBox = new bounds(19,35,6,10);
 
     refresh();
-    // wrefresh(mainBox);
+    
     wmove(stdscr,0,0);
     wprintw(stdscr,"Instructions:\nPress WASD keys to move in between the cells\nPress ENTER to edit a cell\nPress Q to quit the program");
     
