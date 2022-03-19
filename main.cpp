@@ -4,36 +4,33 @@
 
 #define READ_MODE 0;
 #define WRITE_MODE 1;
-// Cannot Scroll -> Needs we need a page datastructure and render the boxes dynamically ..!
+int vals[16] = {-1};
 
-// We Will Do THIS
-// OR create overlapping windows and use refresh keys and Page Variable at top!!
 using namespace std;
 
 struct Page{
     int startRow,startCol;
     int id;
-
-
 };
 
 struct Control{
-
     int posY,posX;
     WINDOW **windowList;
     WINDOW *currWindow;
-    
     int MODE;
     int Row,Col;
     int currentIndex;
-    
     int sbHt, sbWd;
     Control(WINDOW **wl,int r, int c,int ht,int wd) : posY(0), posX(0),windowList(wl),currWindow(wl[0]),MODE(0),Row(r),Col(c),currentIndex(0),
     sbHt(ht), sbWd(wd){
         moveUtility();
         wbkgd(windowList[0],COLOR_PAIR(2));
         wrefresh(windowList[0]);
+        for(int i=0; i<16; i++){
+            vals[i]=-1;
+        }   
     }
+    
 
     int moveCursor(char trigger){
        
@@ -85,17 +82,37 @@ struct Control{
             wbkgd(windowList[0],COLOR_PAIR(1));
             wmove(currWindow,sbHt/2,sbWd/2);
             wrefresh(currWindow);
-                        
+            print_in_middle(currWindow,sbHt/2,0,sbWd,"      ");
+            char * thing;    
+            val=0;       
             while((a=getch())!='\n'){
                 val = val*10 + (a-48);  
+                asprintf(&thing, "%d", val);
+                print_in_middle(currWindow,sbHt/2,0,sbWd,thing);
             }
-            char * thing;
-            asprintf(&thing, "%d", val);
-            // wattron(currWindow,A_BOLD);
-            // wattron(currWindow,COLOR_PAIR(1));
-            // attron(COLOR_PAIR(1));
-            print_in_middle(currWindow,sbHt/2,0,sbWd,thing);
+            wmove(stdscr,0,0);
+            wprintw(stdscr,"Are u sure to update? Enter 'y' if yes or 'n' otherwise");
+            if(getch()=='y'){
+                vals[currentIndex] = val;
+            }else{
+                wmove(currWindow,sbHt/2,sbWd/2);
+                wrefresh(currWindow);
+                if(vals[currentIndex]!= -1){
+                    val = vals[currentIndex];
+                    asprintf(&thing, "%d", val);
+                    print_in_middle(currWindow,sbHt/2,0,sbWd,thing);
+                }else{
+                    
+                    print_in_middle(currWindow,sbHt/2,0,sbWd,"      ");
+                }
+                wmove(currWindow,sbHt/2,sbWd/2);
+                wrefresh(currWindow);
+            }
+            // clear();
             free(thing);
+            wmove(stdscr,0,0);
+            clrtoeol();
+            wrefresh(stdscr);
             wmove(currWindow,0,0);
             wbkgd(windowList[0],COLOR_PAIR(2));
             wrefresh(currWindow);
@@ -109,20 +126,6 @@ struct Control{
         return 0;
     }
 
-    // int writeText(char trigger){
-    //     if(MODE){
-    //         char * thing;
-    //         asprintf(&thing, "%C", trigger);
-    //         // wattron(currWindow,A_BOLD);
-    //         // wattron(currWindow,COLOR_PAIR(1));
-    //         // attron(COLOR_PAIR(1));
-    //         print_in_middle(currWindow,sbHt/2,1,sbWd-2,thing);
-    //         free(thing);
-    //         // attroff(COLOR_PAIR(1));
-    //         return 1;
-    //     }
-    //     return 0;
-    // }
 private:
 
     void moveUtility(){
@@ -135,7 +138,6 @@ private:
     }
 
 };
-
 
 int main(){
 
@@ -155,8 +157,6 @@ int main(){
     init_pair(4, COLOR_CYAN, COLOR_BLACK);
     init_pair(5, COLOR_BLUE, COLOR_BLACK);
     init_pair(6, COLOR_RED, COLOR_BLACK);
-
-
     init_pair(7, COLOR_WHITE, COLOR_BLACK);
     init_pair(8, COLOR_BLACK, COLOR_BLUE);
     init_pair(9, COLOR_BLACK, COLOR_RED);
@@ -165,30 +165,29 @@ int main(){
 
     int maxX,maxY;
     getmaxyx(stdscr, maxY, maxX);
-    // printw("%d %d",maxY,maxX);
-    //Main Box
-    bounds* bdMainBox = new bounds(23,39,5,5);
-    // WINDOW *mainBox = createWin(bdMainBox);
 
-    // wattron(mainBox,A_BOLD);
-    // wattron(mainBox,COLOR_PAIR(0));
-    // // wborder(mainBox,'*','*','*','*','*','*','*','*');   
-    // box(mainBox,0,0);   
-    // wattroff(mainBox,COLOR_PAIR(0));
-    // wattroff(mainBox,A_BOLD);
+    //Main Box
+    bounds* bdMainBox = new bounds(23,39,5,10);
 
     refresh();
     // wrefresh(mainBox);
     
     int cellsPerRow = 4,cellsPerColumn = 4;
-
     int rows=4,columns=4;    
     int sbHt = (bdMainBox->height)/cellsPerRow,sbWd = (bdMainBox->width)/cellsPerColumn;
-
     int ColorVal = 0;
     WINDOW **SubBoxes = new WINDOW*[rows*columns];
 
-    
+    wattron(stdscr,COLOR_PAIR(1));
+    for(int i=7; i<rows; i=i+5){
+        wmove(stdscr,i,0);
+        wprintw(stdscr,"row");
+        
+        refresh();
+        wrefresh(stdscr);
+    }
+    wattroff(stdscr,COLOR_PAIR(1));
+    getch();
     for(int i=0;i<rows;i++){
         ColorVal = i%6  + 1;
         for(int j=0;j<columns;j++){
@@ -207,12 +206,10 @@ int main(){
             refresh();
             wrefresh(SubBoxes[i*rows + j]);
             delete currBound;
-        }
-        
+        }       
     }
     
-
-
+    
     int mRow=0;
     char c;
 
@@ -224,28 +221,7 @@ int main(){
             //     //  controlPtr->writeText(c);
             // }
         }
-    
-       
-        // mRow++;
-        // if(mRow>(bdMainBox->height) - 2){
-        //     mRow = 1;
-        // }
-
-        // char * thing;
-        // asprintf(&thing, "Key Pressed %C", c);
-        // wattron(mainBox,A_BOLD);
-        // wattron(mainBox,COLOR_PAIR(1));
-        // // attron(COLOR_PAIR(1));
-        // print_in_middle(mainBox,mRow,1,bdMainBox->width -2,thing);
-        // free(thing);
-        // attroff(COLOR_PAIR(1));
-
-        // wmove(mainBox,mRow,1);
-        // wprintw(mainBox,"This is %c",c);
     }
-
     endwin();
     return 0;
-
-
 }
