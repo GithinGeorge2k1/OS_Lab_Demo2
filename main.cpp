@@ -75,41 +75,58 @@ struct Control{
     int changeMode(char trigger){
         char a;
         int val = 0;
+        bool overwritten = false;
+
         switch (trigger)
         {
         case '\n':
             MODE=WRITE_MODE;
-            wbkgd(windowList[0],COLOR_PAIR(1));
-            wmove(currWindow,sbHt/2,sbWd/2);
+            // wbkgd(windowList[0],COLOR_PAIR(1));
+            move(0,0);
+            printw("Press Enter Key To exit edit mode");
+            refresh();
+            print_in_middle(currWindow,(sbHt-2)/2,0,sbWd,"      ");
+            wmove(currWindow,(sbHt-2)/2,(sbWd-2)/2);
             wrefresh(currWindow);
-            print_in_middle(currWindow,sbHt/2,0,sbWd,"      ");
+
             char * thing;    
             val=0;       
             while((a=getch())!='\n'){
-                val = val*10 + (a-48);  
+                if(a<'0' || a>'9'){
+                    continue;
+                }
+                overwritten = true;
+                int temp = val*10 + (a-48);
+                if(temp>=999){
+                    continue;
+                }  
+                val = temp;
                 asprintf(&thing, "%d", val);
-                print_in_middle(currWindow,sbHt/2,0,sbWd,thing);
+                print_in_middle(currWindow,(sbHt-2)/2,0,sbWd,thing);
             }
             wmove(stdscr,0,0);
             wprintw(stdscr,"Are u sure to update? Enter 'y' if yes or 'n' otherwise");
             if(getch()=='y'){
-                vals[currentIndex] = val;
+                if(overwritten){
+                    vals[currentIndex] = val;
+                }
             }else{
-                wmove(currWindow,sbHt/2,sbWd/2);
+                wmove(currWindow,(sbHt-2)/2,(sbWd-2)/2);
                 wrefresh(currWindow);
                 if(vals[currentIndex]!= -1){
                     val = vals[currentIndex];
                     asprintf(&thing, "%d", val);
-                    print_in_middle(currWindow,sbHt/2,0,sbWd,thing);
+                    print_in_middle(currWindow,(sbHt-2)/2,0,sbWd,thing);
                 }else{
                     
-                    print_in_middle(currWindow,sbHt/2,0,sbWd,"      ");
+                    print_in_middle(currWindow,(sbHt-2)/2,0,sbWd,"      ");
                 }
-                wmove(currWindow,sbHt/2,sbWd/2);
+                wmove(currWindow,(sbHt-2)/2,(sbWd-2)/2);
                 wrefresh(currWindow);
             }
             // clear();
-            free(thing);
+            if(overwritten)
+                free(thing);
             wmove(stdscr,0,0);
             clrtoeol();
             wrefresh(stdscr);
@@ -167,7 +184,7 @@ int main(){
     getmaxyx(stdscr, maxY, maxX);
 
     //Main Box
-    bounds* bdMainBox = new bounds(23,39,5,10);
+    bounds* bdMainBox = new bounds(19,35,5,10);
 
     refresh();
     // wrefresh(mainBox);
@@ -178,16 +195,29 @@ int main(){
     int ColorVal = 0;
     WINDOW **SubBoxes = new WINDOW*[rows*columns];
 
+    
     wattron(stdscr,COLOR_PAIR(1));
-    for(int i=7; i<rows; i=i+5){
+    int k =1; 
+    for(int i=6; i<20; i=i+rows){
         wmove(stdscr,i,0);
-        wprintw(stdscr,"row");
-        
+        wprintw(stdscr,"Stduent %d",k);
+        k++;
         refresh();
         wrefresh(stdscr);
     }
     wattroff(stdscr,COLOR_PAIR(1));
-    getch();
+    
+    k=1;
+    wattron(stdscr,COLOR_PAIR(1));
+    for(int i=11; i<37; i=i+8){
+        wmove(stdscr,3,i);
+        wprintw(stdscr,"Prof %d",k);
+        k++;
+        refresh();
+        wrefresh(stdscr);
+    }
+    wattroff(stdscr,COLOR_PAIR(1));
+    
     for(int i=0;i<rows;i++){
         ColorVal = i%6  + 1;
         for(int j=0;j<columns;j++){
