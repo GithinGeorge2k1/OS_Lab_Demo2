@@ -5,7 +5,6 @@
 #define READ_MODE 0;
 #define WRITE_MODE 1;
 int vals[20] = {-1};
-int sum[4]={-1};
 
 using namespace std;
 
@@ -27,8 +26,12 @@ struct Control{
         moveUtility();
         wbkgd(windowList[0],COLOR_PAIR(2));
         wrefresh(windowList[0]);
-        for(int i=0; i<16; i++){
-            vals[i]=-1;
+        for(int i=0; i<20; i++){
+            if((i+1)%5==0){
+                vals[i]=0;
+            }else{
+                vals[i]=-1;
+            }          
         }   
     }
     
@@ -77,6 +80,9 @@ struct Control{
         char a;
         int val = 0;
         bool overwritten = false;
+        if((currentIndex+1)%5==0){
+            return -1;
+        }
 
         switch (trigger)
         {
@@ -86,7 +92,7 @@ struct Control{
             move(22,0);
             printw("Press Enter Key To exit edit mode");
             refresh();
-            print_in_middle(currWindow,(sbHt-2)/2,0,sbWd,"      ");
+            print_in_middle(currWindow,(sbHt-2)/2,0,sbWd,"    ");
             wmove(currWindow,(sbHt-2)/2,(sbWd-2)/2);
             wrefresh(currWindow);
 
@@ -109,21 +115,20 @@ struct Control{
             wprintw(stdscr,"Are u sure to update? Enter 'y' if yes or 'n' otherwise");
             if(getch()=='y'){
                 if(overwritten){
-                    vals[currentIndex] = val;
-
-                    int cellno=0, startInd=0;
-                    cellno=(currentIndex/5+1)*5-1;
-                    startInd=cellno-4;
-                    sum[cellno]=0;
-                    for(int i=startInd; i<cellno; i++){
+                    int cellno = (currentIndex/5+1)*5-1;
+                    int start = cellno-4;
+                    int sum=0;
+                    vals[currentIndex]=val;
+                    for(int i=start; i<start+4; i++){
                         if(vals[i]!=-1){
-                            sum[cellno] += vals[i];
-                        }    
-                    }
-                    asprintf(&thing, "%d", sum[cellno]);
-                    currWindow=windowList[cellno+4];
-                    print_in_middle(currWindow,(sbHt-2)/2,0,sbWd,thing);
-                    currWindow=windowList[currentIndex];
+                            sum+=vals[i];
+                        }
+                    } 
+                    vals[cellno] = sum;
+                    asprintf(&thing, "%d", sum);
+                    print_in_middle(windowList[cellno],(sbHt-2)/2,0,sbWd,thing);
+                    wrefresh(windowList[cellno]);
+
                 }
             }else{
                 wmove(currWindow,(sbHt-2)/2,(sbWd-2)/2);
@@ -131,11 +136,11 @@ struct Control{
                 if(vals[currentIndex]!= -1){
                     val = vals[currentIndex];
                     asprintf(&thing, "%d", val);
-                    print_in_middle(currWindow,(sbHt-2)/2,0,sbWd,"     ");
+                    print_in_middle(currWindow,(sbHt-2)/2,0,sbWd,"    ");
                     print_in_middle(currWindow,(sbHt-2)/2,0,sbWd,thing);
                 }else{
                     
-                    print_in_middle(currWindow,(sbHt-2)/2,0,sbWd,"     ");
+                    print_in_middle(currWindow,(sbHt-2)/2,0,sbWd,"    ");
                 }
                 wmove(currWindow,(sbHt-2)/2,(sbWd-2)/2);
                 wrefresh(currWindow);
@@ -240,20 +245,20 @@ int main(){
     for(int i=0;i<rows;i++){
         ColorVal = i%6  + 1;
         for(int j=0;j<columns;j++){
-            int rs = (bdMainBox->rowStart) + (i%cellsPerRow)*sbHt ;
+            int rs = (bdMainBox->rowStart) + (i)*sbHt ;
 
-            int cs = (bdMainBox->colStart) + (j%cellsPerColumn)*sbWd ;
+            int cs = (bdMainBox->colStart) + (j)*sbWd ;
 
             bounds *currBound = new bounds(sbHt,sbWd,rs,cs);
-            SubBoxes[i*rows + j] = createWin(currBound);
-            wattron(SubBoxes[i*rows + j],A_BOLD);
-            wattron(SubBoxes[i*rows + j],COLOR_PAIR(ColorVal));
-            // wborder(SubBoxes[i*rows + j],'`','`','`','`','`','`','`','`'); 
-            box(SubBoxes[i*rows + j],0,0); 
-            wattroff(SubBoxes[i*rows + j],COLOR_PAIR(ColorVal));
-            wattroff(SubBoxes[i*rows + j],A_BOLD);
+            SubBoxes[i*columns + j] = createWin(currBound);
+            wattron(SubBoxes[i*columns + j],A_BOLD);
+            wattron(SubBoxes[i*columns + j],COLOR_PAIR(ColorVal));
+            // wborder(SubBoxes[i*columns + j],'`','`','`','`','`','`','`','`'); 
+            box(SubBoxes[i*columns + j],0,0); 
+            wattroff(SubBoxes[i*columns + j],COLOR_PAIR(ColorVal));
+            wattroff(SubBoxes[i*columns + j],A_BOLD);
             refresh();
-            wrefresh(SubBoxes[i*rows + j]);
+            wrefresh(SubBoxes[i*columns + j]);
             delete currBound;
         }       
     }
