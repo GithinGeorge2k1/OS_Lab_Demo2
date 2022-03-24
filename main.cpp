@@ -4,7 +4,8 @@
 
 #define READ_MODE 0;
 #define WRITE_MODE 1;
-int vals[16] = {-1};
+int vals[20] = {-1};
+int sum[4]={-1};
 
 using namespace std;
 
@@ -109,6 +110,20 @@ struct Control{
             if(getch()=='y'){
                 if(overwritten){
                     vals[currentIndex] = val;
+
+                    int cellno=0, startInd=0;
+                    cellno=(currentIndex/5+1)*5-1;
+                    startInd=cellno-4;
+                    sum[cellno]=0;
+                    for(int i=startInd; i<cellno; i++){
+                        if(vals[i]!=-1){
+                            sum[cellno] += vals[i];
+                        }    
+                    }
+                    asprintf(&thing, "%d", sum[cellno]);
+                    currWindow=windowList[cellno+4];
+                    print_in_middle(currWindow,(sbHt-2)/2,0,sbWd,thing);
+                    currWindow=windowList[currentIndex];
                 }
             }else{
                 wmove(currWindow,(sbHt-2)/2,(sbWd-2)/2);
@@ -116,11 +131,11 @@ struct Control{
                 if(vals[currentIndex]!= -1){
                     val = vals[currentIndex];
                     asprintf(&thing, "%d", val);
-                    print_in_middle(currWindow,(sbHt-2)/2,0,sbWd,"      ");
+                    print_in_middle(currWindow,(sbHt-2)/2,0,sbWd,"     ");
                     print_in_middle(currWindow,(sbHt-2)/2,0,sbWd,thing);
                 }else{
                     
-                    print_in_middle(currWindow,(sbHt-2)/2,0,sbWd,"      ");
+                    print_in_middle(currWindow,(sbHt-2)/2,0,sbWd,"     ");
                 }
                 wmove(currWindow,(sbHt-2)/2,(sbWd-2)/2);
                 wrefresh(currWindow);
@@ -192,8 +207,8 @@ int main(){
     wmove(stdscr,0,0);
     wprintw(stdscr,"Instructions:\nPress WASD keys to move in between the cells\nPress ENTER to edit a cell\nPress Q to quit the program");
     
-    int cellsPerRow = 4,cellsPerColumn = 4;
-    int rows=4,columns=4;    
+    int cellsPerRow = 4,cellsPerColumn = 5;
+    int rows=4,columns=5;    
     int sbHt = (bdMainBox->height)/cellsPerRow,sbWd = (bdMainBox->width)/cellsPerColumn;
     int ColorVal = 0;
     WINDOW **SubBoxes = new WINDOW*[rows*columns];
@@ -212,13 +227,14 @@ int main(){
     
     k=1;
     wattron(stdscr,COLOR_PAIR(1));
-    for(int i=11; i<37; i=i+8){
+    for(int i=11; i<34; i=i+7){
         wmove(stdscr,5,i);
-        wprintw(stdscr,"Prof %d",k);
+        wprintw(stdscr,"Prof%d",k);
         k++;
         refresh();
         wrefresh(stdscr);
     }
+    wprintw(stdscr,"  Total",k);
     wattroff(stdscr,COLOR_PAIR(1));
     
     for(int i=0;i<rows;i++){
