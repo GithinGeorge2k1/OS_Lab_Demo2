@@ -24,12 +24,12 @@ void print_in_middle(WINDOW *win, int starty, int startx, int width,const char *
     // refresh();
 }
 
-bounds::bounds(int ht,int wd,int rs,int cs) : width(wd),height(ht), rowStart(rs), colStart(cs) {
+// bounds::bounds(int ht,int wd,int rs,int cs) : width(wd),height(ht), rowStart(rs), colStart(cs) {
 
-}
+// }
 
 
-WINDOW* createWin(struct bounds *bd){
+// WINDOW* createWin(struct bounds *bd){
 
-    return newwin(bd->height,bd->width,bd->rowStart,bd->colStart);
-}
+//     return newwin(bd->height,bd->width,bd->rowStart,bd->colStart);
+// }

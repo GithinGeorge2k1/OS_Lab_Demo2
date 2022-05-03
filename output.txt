@@ -1,0 +1,3531 @@
+	0 1 2 
+	100 101 102 
+	200 201 202 
+Table Type is l
+here
+	0 
+	100 
+	200 
+Key Pressed : s
+	 TopLeft is : (1 , 0)
+	BottomRight is : (1 , 2)
+here
+	100 
+	200 
+	300 
+Key Pressed : s
+	 TopLeft is : (0 , 0)
+	BottomRight is : (2 , 2)
+	0 1 2 
+	100 101 102 
+	200 201 202 
+Key Pressed : s
+	 TopLeft is : (2 , 0)
+	BottomRight is : (2 , 2)
+here
+	200 
+	300 
+	400 
+Key Pressed : s
+	 TopLeft is : (0 , 0)
+	BottomRight is : (2 , 2)
+	0 1 2 
+	100 101 102 
+	200 201 202 
+Key Pressed : s
+	 TopLeft is : (3 , 0)
+	BottomRight is : (3 , 2)
+here
+	300 
+	400 
+	500 
+Key Pressed : s
+	 TopLeft is : (1 , 0)
+	BottomRight is : (3 , 2)
+	100 101 102 
+	200 201 202 
+	300 301 302 
+Key Pressed : s
+	 TopLeft is : (4 , 0)
+	BottomRight is : (4 , 2)
+here
+	400 
+	500 
+	600 
+Key Pressed : s
+	 TopLeft is : (2 , 0)
+	BottomRight is : (4 , 2)
+	200 201 202 
+	300 301 302 
+	400 401 402 
+Key Pressed : s
+	 TopLeft is : (5 , 0)
+	BottomRight is : (5 , 2)
+here
+	500 
+	600 
+	700 
+Key Pressed : s
+	 TopLeft is : (3 , 0)
+	BottomRight is : (5 , 2)
+	300 301 302 
+	400 401 402 
+	500 501 502 
+Key Pressed : s
+	 TopLeft is : (6 , 0)
+	BottomRight is : (6 , 2)
+here
+	600 
+	700 
+	800 
+Key Pressed : s
+	 TopLeft is : (4 , 0)
+	BottomRight is : (6 , 2)
+	400 401 402 
+	500 501 502 
+	600 601 602 
+Key Pressed : s
+	 TopLeft is : (7 , 0)
+	BottomRight is : (7 , 2)
+here
+	700 
+	800 
+	900 
+Key Pressed : s
+	 TopLeft is : (5 , 0)
+	BottomRight is : (7 , 2)
+	500 501 502 
+	600 601 602 
+	700 701 702 
+Key Pressed : s
+	 TopLeft is : (8 , 0)
+	BottomRight is : (8 , 2)
+here
+	800 
+	900 
+	1000 
+Key Pressed : s
+	 TopLeft is : (6 , 0)
+	BottomRight is : (8 , 2)
+	600 601 602 
+	700 701 702 
+	800 801 802 
+Key Pressed : s
+	 TopLeft is : (9 , 0)
+	BottomRight is : (9 , 2)
+here
+	900 
+	1000 
+	1100 
+Key Pressed : s
+	 TopLeft is : (7 , 0)
+	BottomRight is : (9 , 2)
+	700 701 702 
+	800 801 802 
+	900 901 902 
+Key Pressed : s
+	 TopLeft is : (9 , 0)
+	BottomRight is : (9 , 2)
+here
+	900 
+	1000 
+	1100 
+Key Pressed : s
+	 TopLeft is : (7 , 0)
+	BottomRight is : (9 , 2)
+	700 701 702 
+	800 801 802 
+	900 901 902 
+Key Pressed : s
+	 TopLeft is : (9 , 0)
+	BottomRight is : (9 , 2)
+here
+	900 
+	1000 
+	1100 
+Key Pressed : s
+	 TopLeft is : (7 , 0)
+	BottomRight is : (9 , 2)
+	700 701 702 
+	800 801 802 
+	900 901 902 
+Key Pressed : s
+	 TopLeft is : (9 , 0)
+	BottomRight is : (9 , 2)
+here
+	900 
+	1000 
+	1100 
+Key Pressed : s
+	 TopLeft is : (7 , 0)
+	BottomRight is : (9 , 2)
+	700 701 702 
+	800 801 802 
+	900 901 902 
+Key Pressed : s
+	 TopLeft is : (9 , 0)
+	BottomRight is : (9 , 2)
+here
+	900 
+	1000 
+	1100 
+Key Pressed : s
+	 TopLeft is : (7 , 0)
+	BottomRight is : (9 , 2)
+	700 701 702 
+	800 801 802 
+	900 901 902 
+Key Pressed : s
+	 TopLeft is : (9 , 0)
+	BottomRight is : (9 , 2)
+here
+	900 
+	1000 
+	1100 
+Key Pressed : s
+	 TopLeft is : (7 , 0)
+	BottomRight is : (9 , 2)
+	700 701 702 
+	800 801 802 
+	900 901 902 
+Key Pressed : s
+	 TopLeft is : (9 , 0)
+	BottomRight is : (9 , 2)
+here
+	900 
+	1000 
+	1100 
+Key Pressed : s
+	 TopLeft is : (7 , 0)
+	BottomRight is : (9 , 2)
+	700 701 702 
+	800 801 802 
+	900 901 902 
+Key Pressed : s
+	 TopLeft is : (9 , 0)
+	BottomRight is : (9 , 2)
+here
+	900 
+	1000 
+	1100 
+Key Pressed : s
+	 TopLeft is : (7 , 0)
+	BottomRight is : (9 , 2)
+	700 701 702 
+	800 801 802 
+	900 901 902 
+Key Pressed : s
+	 TopLeft is : (9 , 0)
+	BottomRight is : (9 , 2)
+here
+	900 
+	1000 
+	1100 
+Key Pressed : s
+	 TopLeft is : (7 , 0)
+	BottomRight is : (9 , 2)
+	700 701 702 
+	800 801 802 
+	900 901 902 
+Key Pressed : s
+	 TopLeft is : (9 , 0)
+	BottomRight is : (9 , 2)
+here
+	900 
+	1000 
+	1100 
+Key Pressed : s
+	 TopLeft is : (7 , 0)
+	BottomRight is : (9 , 2)
+	700 701 702 
+	800 801 802 
+	900 901 902 
+Key Pressed : s
+	 TopLeft is : (9 , 0)
+	BottomRight is : (9 , 2)
+here
+	900 
+	1000 
+	1100 
+Key Pressed : s
+	 TopLeft is : (7 , 0)
+	BottomRight is : (9 , 2)
+	700 701 702 
+	800 801 802 
+	900 901 902 
+Key Pressed : s
+	 TopLeft is : (9 , 0)
+	BottomRight is : (9 , 2)
+here
+	900 
+	1000 
+	1100 
+Key Pressed : s
+	 TopLeft is : (7 , 0)
+	BottomRight is : (9 , 2)
+	700 701 702 
+	800 801 802 
+	900 901 902 
+Key Pressed : s
+	 TopLeft is : (9 , 0)
+	BottomRight is : (9 , 2)
+here
+	900 
+	1000 
+	1100 
+Key Pressed : s
+	 TopLeft is : (7 , 0)
+	BottomRight is : (9 , 2)
+	700 701 702 
+	800 801 802 
+	900 901 902 
+Key Pressed : s
+	 TopLeft is : (9 , 0)
+	BottomRight is : (9 , 2)
+here
+	900 
+	1000 
+	1100 
+Key Pressed : s
+	 TopLeft is : (7 , 0)
+	BottomRight is : (9 , 2)
+	700 701 702 
+	800 801 802 
+	900 901 902 
+Key Pressed : s
+	 TopLeft is : (9 , 0)
+	BottomRight is : (9 , 2)
+here
+	900 
+	1000 
+	1100 
+Key Pressed : s
+	 TopLeft is : (7 , 0)
+	BottomRight is : (9 , 2)
+	700 701 702 
+	800 801 802 
+	900 901 902 
+Key Pressed : s
+	 TopLeft is : (9 , 0)
+	BottomRight is : (9 , 2)
+here
+	900 
+	1000 
+	1100 
+Key Pressed : s
+	 TopLeft is : (7 , 0)
+	BottomRight is : (9 , 2)
+	700 701 702 
+	800 801 802 
+	900 901 902 
+Key Pressed : s
+	 TopLeft is : (9 , 0)
+	BottomRight is : (9 , 2)
+here
+	900 
+	1000 
+	1100 
+Key Pressed : s
+	 TopLeft is : (7 , 0)
+	BottomRight is : (9 , 2)
+	700 701 702 
+	800 801 802 
+	900 901 902 
+Key Pressed : s
+	 TopLeft is : (9 , 0)
+	BottomRight is : (9 , 2)
+here
+	900 
+	1000 
+	1100 
+Key Pressed : s
+	 TopLeft is : (7 , 0)
+	BottomRight is : (9 , 2)
+	700 701 702 
+	800 801 802 
+	900 901 902 
+Key Pressed : s
+	 TopLeft is : (9 , 0)
+	BottomRight is : (9 , 2)
+here
+	900 
+	1000 
+	1100 
+Key Pressed : s
+	 TopLeft is : (7 , 0)
+	BottomRight is : (9 , 2)
+	700 701 702 
+	800 801 802 
+	900 901 902 
+Key Pressed : s
+	 TopLeft is : (9 , 0)
+	BottomRight is : (9 , 2)
+here
+	900 
+	1000 
+	1100 
+Key Pressed : s
+	 TopLeft is : (7 , 0)
+	BottomRight is : (9 , 2)
+	700 701 702 
+	800 801 802 
+	900 901 902 
+Key Pressed : s
+	 TopLeft is : (9 , 0)
+	BottomRight is : (9 , 2)
+here
+	900 
+	1000 
+	1100 
+Key Pressed : s
+	 TopLeft is : (7 , 0)
+	BottomRight is : (9 , 2)
+	700 701 702 
+	800 801 802 
+	900 901 902 
+Key Pressed : s
+	 TopLeft is : (9 , 0)
+	BottomRight is : (9 , 2)
+here
+	900 
+	1000 
+	1100 
+Key Pressed : s
+	 TopLeft is : (7 , 0)
+	BottomRight is : (9 , 2)
+	700 701 702 
+	800 801 802 
+	900 901 902 
+Key Pressed : s
+	 TopLeft is : (9 , 0)
+	BottomRight is : (9 , 2)
+here
+	900 
+	1000 
+	1100 
+Key Pressed : s
+	 TopLeft is : (7 , 0)
+	BottomRight is : (9 , 2)
+	700 701 702 
+	800 801 802 
+	900 901 902 
+Key Pressed : s
+	 TopLeft is : (9 , 0)
+	BottomRight is : (9 , 2)
+here
+	900 
+	1000 
+	1100 
+Key Pressed : s
+	 TopLeft is : (7 , 0)
+	BottomRight is : (9 , 2)
+	700 701 702 
+	800 801 802 
+	900 901 902 
+Key Pressed : s
+	 TopLeft is : (9 , 0)
+	BottomRight is : (9 , 2)
+here
+	900 
+	1000 
+	1100 
+Key Pressed : s
+	 TopLeft is : (7 , 0)
+	BottomRight is : (9 , 2)
+	700 701 702 
+	800 801 802 
+	900 901 902 
+Key Pressed : s
+	 TopLeft is : (9 , 0)
+	BottomRight is : (9 , 2)
+here
+	900 
+	1000 
+	1100 
+Key Pressed : s
+	 TopLeft is : (7 , 0)
+	BottomRight is : (9 , 2)
+	700 701 702 
+	800 801 802 
+	900 901 902 
+Key Pressed : s
+	 TopLeft is : (9 , 0)
+	BottomRight is : (9 , 2)
+here
+	900 
+	1000 
+	1100 
+Key Pressed : s
+	 TopLeft is : (7 , 0)
+	BottomRight is : (9 , 2)
+	700 701 702 
+	800 801 802 
+	900 901 902 
+Key Pressed : s
+	 TopLeft is : (9 , 0)
+	BottomRight is : (9 , 2)
+here
+	900 
+	1000 
+	1100 
+Key Pressed : s
+	 TopLeft is : (7 , 0)
+	BottomRight is : (9 , 2)
+	700 701 702 
+	800 801 802 
+	900 901 902 
+Key Pressed : d
+	 TopLeft is : (9 , 0)
+	BottomRight is : (9 , 2)
+here
+	900 
+	1000 
+	1100 
+Key Pressed : d
+	 TopLeft is : (7 , 0)
+	BottomRight is : (9 , 2)
+	700 701 702 
+	800 801 802 
+	900 901 902 
+Key Pressed : d
+	 TopLeft is : (9 , 0)
+	BottomRight is : (9 , 2)
+here
+	900 
+	1000 
+	1100 
+Key Pressed : d
+	 TopLeft is : (7 , 0)
+	BottomRight is : (9 , 2)
+	700 701 702 
+	800 801 802 
+	900 901 902 
+Key Pressed : d
+	 TopLeft is : (9 , 1)
+	BottomRight is : (9 , 3)
+here
+	901 
+	1001 
+	1101 
+Key Pressed : d
+	 TopLeft is : (7 , 1)
+	BottomRight is : (9 , 3)
+	701 702 703 
+	801 802 803 
+	901 902 903 
+Key Pressed : d
+	 TopLeft is : (9 , 2)
+	BottomRight is : (9 , 4)
+here
+	902 
+	1002 
+	1102 
+Key Pressed : d
+	 TopLeft is : (7 , 2)
+	BottomRight is : (9 , 4)
+	702 703 704 
+	802 803 804 
+	902 903 904 
+Key Pressed : d
+	 TopLeft is : (9 , 3)
+	BottomRight is : (9 , 5)
+here
+	903 
+	1003 
+	1103 
+Key Pressed : d
+	 TopLeft is : (7 , 3)
+	BottomRight is : (9 , 5)
+	703 704 705 
+	803 804 805 
+	903 904 905 
+Key Pressed : d
+	 TopLeft is : (9 , 4)
+	BottomRight is : (9 , 6)
+here
+	904 
+	1004 
+	1104 
+Key Pressed : d
+	 TopLeft is : (7 , 4)
+	BottomRight is : (9 , 6)
+	704 705 706 
+	804 805 806 
+	904 905 906 
+Key Pressed : d
+	 TopLeft is : (9 , 5)
+	BottomRight is : (9 , 7)
+here
+	905 
+	1005 
+	1105 
+Key Pressed : d
+	 TopLeft is : (7 , 5)
+	BottomRight is : (9 , 7)
+	705 706 707 
+	805 806 807 
+	905 906 907 
+Key Pressed : d
+	 TopLeft is : (9 , 6)
+	BottomRight is : (9 , 8)
+here
+	906 
+	1006 
+	1106 
+Key Pressed : d
+	 TopLeft is : (7 , 6)
+	BottomRight is : (9 , 8)
+	706 707 708 
+	806 807 808 
+	906 907 908 
+Key Pressed : d
+	 TopLeft is : (9 , 7)
+	BottomRight is : (9 , 9)
+here
+	907 
+	1007 
+	1107 
+Key Pressed : d
+	 TopLeft is : (7 , 7)
+	BottomRight is : (9 , 9)
+	707 708 709 
+	807 808 809 
+	907 908 909 
+Key Pressed : d
+	 TopLeft is : (9 , 8)
+	BottomRight is : (9 , 10)
+here
+	908 
+	1008 
+	1108 
+Key Pressed : d
+	 TopLeft is : (7 , 7)
+	BottomRight is : (9 , 9)
+	707 708 709 
+	807 808 809 
+	907 908 909 
+Key Pressed : d
+	 TopLeft is : (9 , 9)
+	BottomRight is : (9 , 11)
+here
+	909 
+	1009 
+	1109 
+Key Pressed : d
+	 TopLeft is : (7 , 7)
+	BottomRight is : (9 , 9)
+	707 708 709 
+	807 808 809 
+	907 908 909 
+Key Pressed : d
+	 TopLeft is : (9 , 10)
+	BottomRight is : (9 , 12)
+here
+	910 
+	1010 
+	1110 
+Key Pressed : d
+	 TopLeft is : (7 , 7)
+	BottomRight is : (9 , 9)
+	707 708 709 
+	807 808 809 
+	907 908 909 
+Key Pressed : d
+	 TopLeft is : (9 , 11)
+	BottomRight is : (9 , 13)
+here
+	911 
+	1011 
+	1111 
+Key Pressed : d
+	 TopLeft is : (7 , 7)
+	BottomRight is : (9 , 9)
+	707 708 709 
+	807 808 809 
+	907 908 909 
+Key Pressed : d
+	 TopLeft is : (9 , 12)
+	BottomRight is : (9 , 14)
+here
+	912 
+	1012 
+	1112 
+Key Pressed : d
+	 TopLeft is : (7 , 7)
+	BottomRight is : (9 , 9)
+	707 708 709 
+	807 808 809 
+	907 908 909 
+Key Pressed : d
+	 TopLeft is : (9 , 13)
+	BottomRight is : (9 , 15)
+here
+	913 
+	1013 
+	1113 
+Key Pressed : d
+	 TopLeft is : (7 , 7)
+	BottomRight is : (9 , 9)
+	707 708 709 
+	807 808 809 
+	907 908 909 
+Key Pressed : d
+	 TopLeft is : (9 , 14)
+	BottomRight is : (9 , 16)
+here
+	914 
+	1014 
+	1114 
+Key Pressed : d
+	 TopLeft is : (7 , 7)
+	BottomRight is : (9 , 9)
+	707 708 709 
+	807 808 809 
+	907 908 909 
+Key Pressed : d
+	 TopLeft is : (9 , 15)
+	BottomRight is : (9 , 17)
+here
+	915 
+	1015 
+	1115 
+Key Pressed : d
+	 TopLeft is : (7 , 7)
+	BottomRight is : (9 , 9)
+	707 708 709 
+	807 808 809 
+	907 908 909 
+Key Pressed : d
+	 TopLeft is : (9 , 16)
+	BottomRight is : (9 , 18)
+here
+	916 
+	1016 
+	1116 
+Key Pressed : d
+	 TopLeft is : (7 , 7)
+	BottomRight is : (9 , 9)
+	707 708 709 
+	807 808 809 
+	907 908 909 
+Key Pressed : d
+	 TopLeft is : (9 , 17)
+	BottomRight is : (9 , 19)
+here
+	917 
+	1017 
+	1117 
+Key Pressed : d
+	 TopLeft is : (7 , 7)
+	BottomRight is : (9 , 9)
+	707 708 709 
+	807 808 809 
+	907 908 909 
+Key Pressed : d
+	 TopLeft is : (9 , 18)
+	BottomRight is : (9 , 20)
+here
+	918 
+	1018 
+	1118 
+Key Pressed : d
+	 TopLeft is : (7 , 7)
+	BottomRight is : (9 , 9)
+	707 708 709 
+	807 808 809 
+	907 908 909 
+Key Pressed : d
+	 TopLeft is : (9 , 19)
+	BottomRight is : (9 , 21)
+here
+	919 
+	1019 
+	1119 
+Key Pressed : d
+	 TopLeft is : (7 , 7)
+	BottomRight is : (9 , 9)
+	707 708 709 
+	807 808 809 
+	907 908 909 
+Key Pressed : d
+	 TopLeft is : (9 , 20)
+	BottomRight is : (9 , 22)
+here
+	920 
+	1020 
+	1120 
+Key Pressed : d
+	 TopLeft is : (7 , 7)
+	BottomRight is : (9 , 9)
+	707 708 709 
+	807 808 809 
+	907 908 909 
+Key Pressed : d
+	 TopLeft is : (9 , 21)
+	BottomRight is : (9 , 23)
+here
+	921 
+	1021 
+	1121 
+Key Pressed : d
+	 TopLeft is : (7 , 7)
+	BottomRight is : (9 , 9)
+	707 708 709 
+	807 808 809 
+	907 908 909 
+Key Pressed : d
+	 TopLeft is : (9 , 22)
+	BottomRight is : (9 , 24)
+here
+	922 
+	1022 
+	1122 
+Key Pressed : d
+	 TopLeft is : (7 , 7)
+	BottomRight is : (9 , 9)
+	707 708 709 
+	807 808 809 
+	907 908 909 
+Key Pressed : d
+	 TopLeft is : (9 , 23)
+	BottomRight is : (9 , 25)
+here
+	923 
+	1023 
+	1123 
+Key Pressed : d
+	 TopLeft is : (7 , 7)
+	BottomRight is : (9 , 9)
+	707 708 709 
+	807 808 809 
+	907 908 909 
+Key Pressed : d
+	 TopLeft is : (9 , 24)
+	BottomRight is : (9 , 26)
+here
+	924 
+	1024 
+	1124 
+Key Pressed : d
+	 TopLeft is : (7 , 7)
+	BottomRight is : (9 , 9)
+	707 708 709 
+	807 808 809 
+	907 908 909 
+Key Pressed : d
+	 TopLeft is : (9 , 25)
+	BottomRight is : (9 , 27)
+here
+	925 
+	1025 
+	1125 
+Key Pressed : d
+	 TopLeft is : (7 , 7)
+	BottomRight is : (9 , 9)
+	707 708 709 
+	807 808 809 
+	907 908 909 
+Key Pressed : a
+	 TopLeft is : (9 , 25)
+	BottomRight is : (9 , 27)
+here
+	925 
+	1025 
+	1125 
+Key Pressed : a
+	 TopLeft is : (7 , 7)
+	BottomRight is : (9 , 9)
+	707 708 709 
+	807 808 809 
+	907 908 909 
+Key Pressed : a
+	 TopLeft is : (9 , 25)
+	BottomRight is : (9 , 27)
+here
+	925 
+	1025 
+	1125 
+Key Pressed : a
+	 TopLeft is : (7 , 7)
+	BottomRight is : (9 , 9)
+	707 708 709 
+	807 808 809 
+	907 908 909 
+Key Pressed : a
+	 TopLeft is : (9 , 24)
+	BottomRight is : (9 , 26)
+here
+	924 
+	1024 
+	1124 
+Key Pressed : a
+	 TopLeft is : (7 , 6)
+	BottomRight is : (9 , 8)
+	706 707 708 
+	806 807 808 
+	906 907 908 
+Key Pressed : a
+	 TopLeft is : (9 , 23)
+	BottomRight is : (9 , 25)
+here
+	923 
+	1023 
+	1123 
+Key Pressed : a
+	 TopLeft is : (7 , 5)
+	BottomRight is : (9 , 7)
+	705 706 707 
+	805 806 807 
+	905 906 907 
+Key Pressed : a
+	 TopLeft is : (9 , 22)
+	BottomRight is : (9 , 24)
+here
+	922 
+	1022 
+	1122 
+Key Pressed : a
+	 TopLeft is : (7 , 4)
+	BottomRight is : (9 , 6)
+	704 705 706 
+	804 805 806 
+	904 905 906 
+Key Pressed : a
+	 TopLeft is : (9 , 21)
+	BottomRight is : (9 , 23)
+here
+	921 
+	1021 
+	1121 
+Key Pressed : a
+	 TopLeft is : (7 , 3)
+	BottomRight is : (9 , 5)
+	703 704 705 
+	803 804 805 
+	903 904 905 
+Key Pressed : a
+	 TopLeft is : (9 , 20)
+	BottomRight is : (9 , 22)
+here
+	920 
+	1020 
+	1120 
+Key Pressed : a
+	 TopLeft is : (7 , 2)
+	BottomRight is : (9 , 4)
+	702 703 704 
+	802 803 804 
+	902 903 904 
+Key Pressed : a
+	 TopLeft is : (9 , 19)
+	BottomRight is : (9 , 21)
+here
+	919 
+	1019 
+	1119 
+Key Pressed : a
+	 TopLeft is : (7 , 1)
+	BottomRight is : (9 , 3)
+	701 702 703 
+	801 802 803 
+	901 902 903 
+Key Pressed : a
+	 TopLeft is : (9 , 18)
+	BottomRight is : (9 , 20)
+here
+	918 
+	1018 
+	1118 
+Key Pressed : a
+	 TopLeft is : (7 , 0)
+	BottomRight is : (9 , 2)
+	700 701 702 
+	800 801 802 
+	900 901 902 
+Key Pressed : a
+	 TopLeft is : (9 , 17)
+	BottomRight is : (9 , 19)
+here
+	917 
+	1017 
+	1117 
+Key Pressed : a
+	 TopLeft is : (7 , 0)
+	BottomRight is : (9 , 2)
+	700 701 702 
+	800 801 802 
+	900 901 902 
+Key Pressed : a
+	 TopLeft is : (9 , 16)
+	BottomRight is : (9 , 18)
+here
+	916 
+	1016 
+	1116 
+Key Pressed : a
+	 TopLeft is : (7 , 0)
+	BottomRight is : (9 , 2)
+	700 701 702 
+	800 801 802 
+	900 901 902 
+Key Pressed : a
+	 TopLeft is : (9 , 15)
+	BottomRight is : (9 , 17)
+here
+	915 
+	1015 
+	1115 
+Key Pressed : a
+	 TopLeft is : (7 , 0)
+	BottomRight is : (9 , 2)
+	700 701 702 
+	800 801 802 
+	900 901 902 
+Key Pressed : a
+	 TopLeft is : (9 , 14)
+	BottomRight is : (9 , 16)
+here
+	914 
+	1014 
+	1114 
+Key Pressed : a
+	 TopLeft is : (7 , 0)
+	BottomRight is : (9 , 2)
+	700 701 702 
+	800 801 802 
+	900 901 902 
+Key Pressed : a
+	 TopLeft is : (9 , 13)
+	BottomRight is : (9 , 15)
+here
+	913 
+	1013 
+	1113 
+Key Pressed : a
+	 TopLeft is : (7 , 0)
+	BottomRight is : (9 , 2)
+	700 701 702 
+	800 801 802 
+	900 901 902 
+Key Pressed : a
+	 TopLeft is : (9 , 12)
+	BottomRight is : (9 , 14)
+here
+	912 
+	1012 
+	1112 
+Key Pressed : a
+	 TopLeft is : (7 , 0)
+	BottomRight is : (9 , 2)
+	700 701 702 
+	800 801 802 
+	900 901 902 
+Key Pressed : a
+	 TopLeft is : (9 , 11)
+	BottomRight is : (9 , 13)
+here
+	911 
+	1011 
+	1111 
+Key Pressed : a
+	 TopLeft is : (7 , 0)
+	BottomRight is : (9 , 2)
+	700 701 702 
+	800 801 802 
+	900 901 902 
+Key Pressed : a
+	 TopLeft is : (9 , 10)
+	BottomRight is : (9 , 12)
+here
+	910 
+	1010 
+	1110 
+Key Pressed : a
+	 TopLeft is : (7 , 0)
+	BottomRight is : (9 , 2)
+	700 701 702 
+	800 801 802 
+	900 901 902 
+Key Pressed : a
+	 TopLeft is : (9 , 9)
+	BottomRight is : (9 , 11)
+here
+	909 
+	1009 
+	1109 
+Key Pressed : a
+	 TopLeft is : (7 , 0)
+	BottomRight is : (9 , 2)
+	700 701 702 
+	800 801 802 
+	900 901 902 
+Key Pressed : a
+	 TopLeft is : (9 , 8)
+	BottomRight is : (9 , 10)
+here
+	908 
+	1008 
+	1108 
+Key Pressed : a
+	 TopLeft is : (7 , 0)
+	BottomRight is : (9 , 2)
+	700 701 702 
+	800 801 802 
+	900 901 902 
+Key Pressed : a
+	 TopLeft is : (9 , 7)
+	BottomRight is : (9 , 9)
+here
+	907 
+	1007 
+	1107 
+Key Pressed : a
+	 TopLeft is : (7 , 0)
+	BottomRight is : (9 , 2)
+	700 701 702 
+	800 801 802 
+	900 901 902 
+Key Pressed : a
+	 TopLeft is : (9 , 6)
+	BottomRight is : (9 , 8)
+here
+	906 
+	1006 
+	1106 
+Key Pressed : a
+	 TopLeft is : (7 , 0)
+	BottomRight is : (9 , 2)
+	700 701 702 
+	800 801 802 
+	900 901 902 
+Key Pressed : a
+	 TopLeft is : (9 , 5)
+	BottomRight is : (9 , 7)
+here
+	905 
+	1005 
+	1105 
+Key Pressed : a
+	 TopLeft is : (7 , 0)
+	BottomRight is : (9 , 2)
+	700 701 702 
+	800 801 802 
+	900 901 902 
+Key Pressed : a
+	 TopLeft is : (9 , 4)
+	BottomRight is : (9 , 6)
+here
+	904 
+	1004 
+	1104 
+Key Pressed : a
+	 TopLeft is : (7 , 0)
+	BottomRight is : (9 , 2)
+	700 701 702 
+	800 801 802 
+	900 901 902 
+Key Pressed : a
+	 TopLeft is : (9 , 3)
+	BottomRight is : (9 , 5)
+here
+	903 
+	1003 
+	1103 
+Key Pressed : a
+	 TopLeft is : (7 , 0)
+	BottomRight is : (9 , 2)
+	700 701 702 
+	800 801 802 
+	900 901 902 
+Key Pressed : a
+	 TopLeft is : (9 , 2)
+	BottomRight is : (9 , 4)
+here
+	902 
+	1002 
+	1102 
+Key Pressed : a
+	 TopLeft is : (7 , 0)
+	BottomRight is : (9 , 2)
+	700 701 702 
+	800 801 802 
+	900 901 902 
+Key Pressed : a
+	 TopLeft is : (9 , 1)
+	BottomRight is : (9 , 3)
+here
+	901 
+	1001 
+	1101 
+Key Pressed : a
+	 TopLeft is : (7 , 0)
+	BottomRight is : (9 , 2)
+	700 701 702 
+	800 801 802 
+	900 901 902 
+Key Pressed : a
+	 TopLeft is : (9 , 0)
+	BottomRight is : (9 , 2)
+here
+	900 
+	1000 
+	1100 
+Key Pressed : a
+	 TopLeft is : (7 , 0)
+	BottomRight is : (9 , 2)
+	700 701 702 
+	800 801 802 
+	900 901 902 
+Key Pressed : a
+	 TopLeft is : (9 , 0)
+	BottomRight is : (9 , 2)
+here
+	900 
+	1000 
+	1100 
+Key Pressed : a
+	 TopLeft is : (7 , 0)
+	BottomRight is : (9 , 2)
+	700 701 702 
+	800 801 802 
+	900 901 902 
+Key Pressed : a
+	 TopLeft is : (9 , 0)
+	BottomRight is : (9 , 2)
+here
+	900 
+	1000 
+	1100 
+Key Pressed : a
+	 TopLeft is : (7 , 0)
+	BottomRight is : (9 , 2)
+	700 701 702 
+	800 801 802 
+	900 901 902 
+Key Pressed : a
+	 TopLeft is : (9 , 0)
+	BottomRight is : (9 , 2)
+here
+	900 
+	1000 
+	1100 
+Key Pressed : a
+	 TopLeft is : (7 , 0)
+	BottomRight is : (9 , 2)
+	700 701 702 
+	800 801 802 
+	900 901 902 
+Key Pressed : a
+	 TopLeft is : (9 , 0)
+	BottomRight is : (9 , 2)
+here
+	900 
+	1000 
+	1100 
+Key Pressed : a
+	 TopLeft is : (7 , 0)
+	BottomRight is : (9 , 2)
+	700 701 702 
+	800 801 802 
+	900 901 902 
+Key Pressed : a
+	 TopLeft is : (9 , 0)
+	BottomRight is : (9 , 2)
+here
+	900 
+	1000 
+	1100 
+Key Pressed : a
+	 TopLeft is : (7 , 0)
+	BottomRight is : (9 , 2)
+	700 701 702 
+	800 801 802 
+	900 901 902 
+Key Pressed : a
+	 TopLeft is : (9 , 0)
+	BottomRight is : (9 , 2)
+here
+	900 
+	1000 
+	1100 
+Key Pressed : a
+	 TopLeft is : (7 , 0)
+	BottomRight is : (9 , 2)
+	700 701 702 
+	800 801 802 
+	900 901 902 
+Key Pressed : a
+	 TopLeft is : (9 , 0)
+	BottomRight is : (9 , 2)
+here
+	900 
+	1000 
+	1100 
+Key Pressed : a
+	 TopLeft is : (7 , 0)
+	BottomRight is : (9 , 2)
+	700 701 702 
+	800 801 802 
+	900 901 902 
+Key Pressed : a
+	 TopLeft is : (9 , 0)
+	BottomRight is : (9 , 2)
+here
+	900 
+	1000 
+	1100 
+Key Pressed : a
+	 TopLeft is : (7 , 0)
+	BottomRight is : (9 , 2)
+	700 701 702 
+	800 801 802 
+	900 901 902 
+Key Pressed : a
+	 TopLeft is : (9 , 0)
+	BottomRight is : (9 , 2)
+here
+	900 
+	1000 
+	1100 
+Key Pressed : a
+	 TopLeft is : (7 , 0)
+	BottomRight is : (9 , 2)
+	700 701 702 
+	800 801 802 
+	900 901 902 
+Key Pressed : a
+	 TopLeft is : (9 , 0)
+	BottomRight is : (9 , 2)
+here
+	900 
+	1000 
+	1100 
+Key Pressed : a
+	 TopLeft is : (7 , 0)
+	BottomRight is : (9 , 2)
+	700 701 702 
+	800 801 802 
+	900 901 902 
+Key Pressed : a
+	 TopLeft is : (9 , 0)
+	BottomRight is : (9 , 2)
+here
+	900 
+	1000 
+	1100 
+Key Pressed : a
+	 TopLeft is : (7 , 0)
+	BottomRight is : (9 , 2)
+	700 701 702 
+	800 801 802 
+	900 901 902 
+Key Pressed : a
+	 TopLeft is : (9 , 0)
+	BottomRight is : (9 , 2)
+here
+	900 
+	1000 
+	1100 
+Key Pressed : a
+	 TopLeft is : (7 , 0)
+	BottomRight is : (9 , 2)
+	700 701 702 
+	800 801 802 
+	900 901 902 
+Key Pressed : a
+	 TopLeft is : (9 , 0)
+	BottomRight is : (9 , 2)
+here
+	900 
+	1000 
+	1100 
+Key Pressed : a
+	 TopLeft is : (7 , 0)
+	BottomRight is : (9 , 2)
+	700 701 702 
+	800 801 802 
+	900 901 902 
+Key Pressed : a
+	 TopLeft is : (9 , 0)
+	BottomRight is : (9 , 2)
+here
+	900 
+	1000 
+	1100 
+Key Pressed : a
+	 TopLeft is : (7 , 0)
+	BottomRight is : (9 , 2)
+	700 701 702 
+	800 801 802 
+	900 901 902 
+Key Pressed : a
+	 TopLeft is : (9 , 0)
+	BottomRight is : (9 , 2)
+here
+	900 
+	1000 
+	1100 
+Key Pressed : a
+	 TopLeft is : (7 , 0)
+	BottomRight is : (9 , 2)
+	700 701 702 
+	800 801 802 
+	900 901 902 
+Key Pressed : a
+	 TopLeft is : (9 , 0)
+	BottomRight is : (9 , 2)
+here
+	900 
+	1000 
+	1100 
+Key Pressed : a
+	 TopLeft is : (7 , 0)
+	BottomRight is : (9 , 2)
+	700 701 702 
+	800 801 802 
+	900 901 902 
+Key Pressed : a
+	 TopLeft is : (9 , 0)
+	BottomRight is : (9 , 2)
+here
+	900 
+	1000 
+	1100 
+Key Pressed : a
+	 TopLeft is : (7 , 0)
+	BottomRight is : (9 , 2)
+	700 701 702 
+	800 801 802 
+	900 901 902 
+Key Pressed : a
+	 TopLeft is : (9 , 0)
+	BottomRight is : (9 , 2)
+here
+	900 
+	1000 
+	1100 
+Key Pressed : a
+	 TopLeft is : (7 , 0)
+	BottomRight is : (9 , 2)
+	700 701 702 
+	800 801 802 
+	900 901 902 
+Key Pressed : a
+	 TopLeft is : (9 , 0)
+	BottomRight is : (9 , 2)
+here
+	900 
+	1000 
+	1100 
+Key Pressed : a
+	 TopLeft is : (7 , 0)
+	BottomRight is : (9 , 2)
+	700 701 702 
+	800 801 802 
+	900 901 902 
+Key Pressed : a
+	 TopLeft is : (9 , 0)
+	BottomRight is : (9 , 2)
+here
+	900 
+	1000 
+	1100 
+Key Pressed : a
+	 TopLeft is : (7 , 0)
+	BottomRight is : (9 , 2)
+	700 701 702 
+	800 801 802 
+	900 901 902 
+Key Pressed : a
+	 TopLeft is : (9 , 0)
+	BottomRight is : (9 , 2)
+here
+	900 
+	1000 
+	1100 
+Key Pressed : a
+	 TopLeft is : (7 , 0)
+	BottomRight is : (9 , 2)
+	700 701 702 
+	800 801 802 
+	900 901 902 
+Key Pressed : a
+	 TopLeft is : (9 , 0)
+	BottomRight is : (9 , 2)
+here
+	900 
+	1000 
+	1100 
+Key Pressed : a
+	 TopLeft is : (7 , 0)
+	BottomRight is : (9 , 2)
+	700 701 702 
+	800 801 802 
+	900 901 902 
+Key Pressed : a
+	 TopLeft is : (9 , 0)
+	BottomRight is : (9 , 2)
+here
+	900 
+	1000 
+	1100 
+Key Pressed : a
+	 TopLeft is : (7 , 0)
+	BottomRight is : (9 , 2)
+	700 701 702 
+	800 801 802 
+	900 901 902 
+Key Pressed : a
+	 TopLeft is : (9 , 0)
+	BottomRight is : (9 , 2)
+here
+	900 
+	1000 
+	1100 
+Key Pressed : a
+	 TopLeft is : (7 , 0)
+	BottomRight is : (9 , 2)
+	700 701 702 
+	800 801 802 
+	900 901 902 
+Key Pressed : a
+	 TopLeft is : (9 , 0)
+	BottomRight is : (9 , 2)
+here
+	900 
+	1000 
+	1100 
+Key Pressed : a
+	 TopLeft is : (7 , 0)
+	BottomRight is : (9 , 2)
+	700 701 702 
+	800 801 802 
+	900 901 902 
+Key Pressed : a
+	 TopLeft is : (9 , 0)
+	BottomRight is : (9 , 2)
+here
+	900 
+	1000 
+	1100 
+Key Pressed : a
+	 TopLeft is : (7 , 0)
+	BottomRight is : (9 , 2)
+	700 701 702 
+	800 801 802 
+	900 901 902 
+Key Pressed : a
+	 TopLeft is : (9 , 0)
+	BottomRight is : (9 , 2)
+here
+	900 
+	1000 
+	1100 
+Key Pressed : a
+	 TopLeft is : (7 , 0)
+	BottomRight is : (9 , 2)
+	700 701 702 
+	800 801 802 
+	900 901 902 
+Key Pressed : a
+	 TopLeft is : (9 , 0)
+	BottomRight is : (9 , 2)
+here
+	900 
+	1000 
+	1100 
+Key Pressed : a
+	 TopLeft is : (7 , 0)
+	BottomRight is : (9 , 2)
+	700 701 702 
+	800 801 802 
+	900 901 902 
+Key Pressed : d
+	 TopLeft is : (9 , 0)
+	BottomRight is : (9 , 2)
+here
+	900 
+	1000 
+	1100 
+Key Pressed : d
+	 TopLeft is : (7 , 0)
+	BottomRight is : (9 , 2)
+	700 701 702 
+	800 801 802 
+	900 901 902 
+Key Pressed : d
+	 TopLeft is : (9 , 0)
+	BottomRight is : (9 , 2)
+here
+	900 
+	1000 
+	1100 
+Key Pressed : d
+	 TopLeft is : (7 , 0)
+	BottomRight is : (9 , 2)
+	700 701 702 
+	800 801 802 
+	900 901 902 
+Key Pressed : d
+	 TopLeft is : (9 , 1)
+	BottomRight is : (9 , 3)
+here
+	901 
+	1001 
+	1101 
+Key Pressed : d
+	 TopLeft is : (7 , 1)
+	BottomRight is : (9 , 3)
+	701 702 703 
+	801 802 803 
+	901 902 903 
+Key Pressed : d
+	 TopLeft is : (9 , 2)
+	BottomRight is : (9 , 4)
+here
+	902 
+	1002 
+	1102 
+Key Pressed : d
+	 TopLeft is : (7 , 2)
+	BottomRight is : (9 , 4)
+	702 703 704 
+	802 803 804 
+	902 903 904 
+Key Pressed : d
+	 TopLeft is : (9 , 3)
+	BottomRight is : (9 , 5)
+here
+	903 
+	1003 
+	1103 
+Key Pressed : d
+	 TopLeft is : (7 , 3)
+	BottomRight is : (9 , 5)
+	703 704 705 
+	803 804 805 
+	903 904 905 
+Key Pressed : d
+	 TopLeft is : (9 , 4)
+	BottomRight is : (9 , 6)
+here
+	904 
+	1004 
+	1104 
+Key Pressed : d
+	 TopLeft is : (7 , 4)
+	BottomRight is : (9 , 6)
+	704 705 706 
+	804 805 806 
+	904 905 906 
+Key Pressed : d
+	 TopLeft is : (9 , 5)
+	BottomRight is : (9 , 7)
+here
+	905 
+	1005 
+	1105 
+Key Pressed : d
+	 TopLeft is : (7 , 5)
+	BottomRight is : (9 , 7)
+	705 706 707 
+	805 806 807 
+	905 906 907 
+Key Pressed : d
+	 TopLeft is : (9 , 6)
+	BottomRight is : (9 , 8)
+here
+	906 
+	1006 
+	1106 
+Key Pressed : d
+	 TopLeft is : (7 , 6)
+	BottomRight is : (9 , 8)
+	706 707 708 
+	806 807 808 
+	906 907 908 
+Key Pressed : d
+	 TopLeft is : (9 , 7)
+	BottomRight is : (9 , 9)
+here
+	907 
+	1007 
+	1107 
+Key Pressed : d
+	 TopLeft is : (7 , 7)
+	BottomRight is : (9 , 9)
+	707 708 709 
+	807 808 809 
+	907 908 909 
+Key Pressed : d
+	 TopLeft is : (9 , 8)
+	BottomRight is : (9 , 10)
+here
+	908 
+	1008 
+	1108 
+Key Pressed : d
+	 TopLeft is : (7 , 7)
+	BottomRight is : (9 , 9)
+	707 708 709 
+	807 808 809 
+	907 908 909 
+Key Pressed : d
+	 TopLeft is : (9 , 9)
+	BottomRight is : (9 , 11)
+here
+	909 
+	1009 
+	1109 
+Key Pressed : d
+	 TopLeft is : (7 , 7)
+	BottomRight is : (9 , 9)
+	707 708 709 
+	807 808 809 
+	907 908 909 
+Key Pressed : d
+	 TopLeft is : (9 , 10)
+	BottomRight is : (9 , 12)
+here
+	910 
+	1010 
+	1110 
+Key Pressed : d
+	 TopLeft is : (7 , 7)
+	BottomRight is : (9 , 9)
+	707 708 709 
+	807 808 809 
+	907 908 909 
+Key Pressed : d
+	 TopLeft is : (9 , 11)
+	BottomRight is : (9 , 13)
+here
+	911 
+	1011 
+	1111 
+Key Pressed : d
+	 TopLeft is : (7 , 7)
+	BottomRight is : (9 , 9)
+	707 708 709 
+	807 808 809 
+	907 908 909 
+Key Pressed : d
+	 TopLeft is : (9 , 12)
+	BottomRight is : (9 , 14)
+here
+	912 
+	1012 
+	1112 
+Key Pressed : d
+	 TopLeft is : (7 , 7)
+	BottomRight is : (9 , 9)
+	707 708 709 
+	807 808 809 
+	907 908 909 
+Key Pressed : d
+	 TopLeft is : (9 , 13)
+	BottomRight is : (9 , 15)
+here
+	913 
+	1013 
+	1113 
+Key Pressed : d
+	 TopLeft is : (7 , 7)
+	BottomRight is : (9 , 9)
+	707 708 709 
+	807 808 809 
+	907 908 909 
+Key Pressed : d
+	 TopLeft is : (9 , 14)
+	BottomRight is : (9 , 16)
+here
+	914 
+	1014 
+	1114 
+Key Pressed : d
+	 TopLeft is : (7 , 7)
+	BottomRight is : (9 , 9)
+	707 708 709 
+	807 808 809 
+	907 908 909 
+Key Pressed : d
+	 TopLeft is : (9 , 15)
+	BottomRight is : (9 , 17)
+here
+	915 
+	1015 
+	1115 
+Key Pressed : d
+	 TopLeft is : (7 , 7)
+	BottomRight is : (9 , 9)
+	707 708 709 
+	807 808 809 
+	907 908 909 
+Key Pressed : d
+	 TopLeft is : (9 , 16)
+	BottomRight is : (9 , 18)
+here
+	916 
+	1016 
+	1116 
+Key Pressed : d
+	 TopLeft is : (7 , 7)
+	BottomRight is : (9 , 9)
+	707 708 709 
+	807 808 809 
+	907 908 909 
+Key Pressed : d
+	 TopLeft is : (9 , 17)
+	BottomRight is : (9 , 19)
+here
+	917 
+	1017 
+	1117 
+Key Pressed : d
+	 TopLeft is : (7 , 7)
+	BottomRight is : (9 , 9)
+	707 708 709 
+	807 808 809 
+	907 908 909 
+Key Pressed : d
+	 TopLeft is : (9 , 18)
+	BottomRight is : (9 , 20)
+here
+	918 
+	1018 
+	1118 
+Key Pressed : d
+	 TopLeft is : (7 , 7)
+	BottomRight is : (9 , 9)
+	707 708 709 
+	807 808 809 
+	907 908 909 
+Key Pressed : d
+	 TopLeft is : (9 , 19)
+	BottomRight is : (9 , 21)
+here
+	919 
+	1019 
+	1119 
+Key Pressed : d
+	 TopLeft is : (7 , 7)
+	BottomRight is : (9 , 9)
+	707 708 709 
+	807 808 809 
+	907 908 909 
+Key Pressed : d
+	 TopLeft is : (9 , 20)
+	BottomRight is : (9 , 22)
+here
+	920 
+	1020 
+	1120 
+Key Pressed : d
+	 TopLeft is : (7 , 7)
+	BottomRight is : (9 , 9)
+	707 708 709 
+	807 808 809 
+	907 908 909 
+Key Pressed : d
+	 TopLeft is : (9 , 21)
+	BottomRight is : (9 , 23)
+here
+	921 
+	1021 
+	1121 
+Key Pressed : d
+	 TopLeft is : (7 , 7)
+	BottomRight is : (9 , 9)
+	707 708 709 
+	807 808 809 
+	907 908 909 
+Key Pressed : d
+	 TopLeft is : (9 , 22)
+	BottomRight is : (9 , 24)
+here
+	922 
+	1022 
+	1122 
+Key Pressed : d
+	 TopLeft is : (7 , 7)
+	BottomRight is : (9 , 9)
+	707 708 709 
+	807 808 809 
+	907 908 909 
+Key Pressed : d
+	 TopLeft is : (9 , 23)
+	BottomRight is : (9 , 25)
+here
+	923 
+	1023 
+	1123 
+Key Pressed : d
+	 TopLeft is : (7 , 7)
+	BottomRight is : (9 , 9)
+	707 708 709 
+	807 808 809 
+	907 908 909 
+Key Pressed : d
+	 TopLeft is : (9 , 24)
+	BottomRight is : (9 , 26)
+here
+	924 
+	1024 
+	1124 
+Key Pressed : d
+	 TopLeft is : (7 , 7)
+	BottomRight is : (9 , 9)
+	707 708 709 
+	807 808 809 
+	907 908 909 
+Key Pressed : d
+	 TopLeft is : (9 , 25)
+	BottomRight is : (9 , 27)
+here
+	925 
+	1025 
+	1125 
+Key Pressed : d
+	 TopLeft is : (7 , 7)
+	BottomRight is : (9 , 9)
+	707 708 709 
+	807 808 809 
+	907 908 909 
+Key Pressed : d
+	 TopLeft is : (9 , 26)
+	BottomRight is : (9 , 28)
+here
+	926 
+	1026 
+	1126 
+Key Pressed : d
+	 TopLeft is : (7 , 7)
+	BottomRight is : (9 , 9)
+	707 708 709 
+	807 808 809 
+	907 908 909 
+Key Pressed : d
+	 TopLeft is : (9 , 27)
+	BottomRight is : (9 , 29)
+here
+	927 
+	1027 
+	1127 
+Key Pressed : d
+	 TopLeft is : (7 , 7)
+	BottomRight is : (9 , 9)
+	707 708 709 
+	807 808 809 
+	907 908 909 
+Key Pressed : d
+	 TopLeft is : (9 , 28)
+	BottomRight is : (9 , 30)
+here
+	928 
+	1028 
+	1128 
+Key Pressed : d
+	 TopLeft is : (7 , 7)
+	BottomRight is : (9 , 9)
+	707 708 709 
+	807 808 809 
+	907 908 909 
+Key Pressed : d
+	 TopLeft is : (9 , 29)
+	BottomRight is : (9 , 31)
+here
+	929 
+	1029 
+	1129 
+Key Pressed : d
+	 TopLeft is : (7 , 7)
+	BottomRight is : (9 , 9)
+	707 708 709 
+	807 808 809 
+	907 908 909 
+Key Pressed : d
+	 TopLeft is : (9 , 30)
+	BottomRight is : (9 , 32)
+here
+	930 
+	1030 
+	1130 
+Key Pressed : d
+	 TopLeft is : (7 , 7)
+	BottomRight is : (9 , 9)
+	707 708 709 
+	807 808 809 
+	907 908 909 
+Key Pressed : d
+	 TopLeft is : (9 , 31)
+	BottomRight is : (9 , 33)
+here
+	931 
+	1031 
+	1131 
+Key Pressed : d
+	 TopLeft is : (7 , 7)
+	BottomRight is : (9 , 9)
+	707 708 709 
+	807 808 809 
+	907 908 909 
+Key Pressed : d
+	 TopLeft is : (9 , 32)
+	BottomRight is : (9 , 34)
+here
+	932 
+	1032 
+	1132 
+Key Pressed : d
+	 TopLeft is : (7 , 7)
+	BottomRight is : (9 , 9)
+	707 708 709 
+	807 808 809 
+	907 908 909 
+Key Pressed : d
+	 TopLeft is : (9 , 33)
+	BottomRight is : (9 , 35)
+here
+	933 
+	1033 
+	1133 
+Key Pressed : d
+	 TopLeft is : (7 , 7)
+	BottomRight is : (9 , 9)
+	707 708 709 
+	807 808 809 
+	907 908 909 
+Key Pressed : d
+	 TopLeft is : (9 , 34)
+	BottomRight is : (9 , 36)
+here
+	934 
+	1034 
+	1134 
+Key Pressed : d
+	 TopLeft is : (7 , 7)
+	BottomRight is : (9 , 9)
+	707 708 709 
+	807 808 809 
+	907 908 909 
+Key Pressed : d
+	 TopLeft is : (9 , 35)
+	BottomRight is : (9 , 37)
+here
+	935 
+	1035 
+	1135 
+Key Pressed : d
+	 TopLeft is : (7 , 7)
+	BottomRight is : (9 , 9)
+	707 708 709 
+	807 808 809 
+	907 908 909 
+Key Pressed : d
+	 TopLeft is : (9 , 36)
+	BottomRight is : (9 , 38)
+here
+	936 
+	1036 
+	1136 
+Key Pressed : d
+	 TopLeft is : (7 , 7)
+	BottomRight is : (9 , 9)
+	707 708 709 
+	807 808 809 
+	907 908 909 
+Key Pressed : d
+	 TopLeft is : (9 , 37)
+	BottomRight is : (9 , 39)
+here
+	937 
+	1037 
+	1137 
+Key Pressed : d
+	 TopLeft is : (7 , 7)
+	BottomRight is : (9 , 9)
+	707 708 709 
+	807 808 809 
+	907 908 909 
+Key Pressed : d
+	 TopLeft is : (9 , 38)
+	BottomRight is : (9 , 40)
+here
+	938 
+	1038 
+	1138 
+Key Pressed : d
+	 TopLeft is : (7 , 7)
+	BottomRight is : (9 , 9)
+	707 708 709 
+	807 808 809 
+	907 908 909 
+Key Pressed : d
+	 TopLeft is : (9 , 39)
+	BottomRight is : (9 , 41)
+here
+	939 
+	1039 
+	1139 
+Key Pressed : d
+	 TopLeft is : (7 , 7)
+	BottomRight is : (9 , 9)
+	707 708 709 
+	807 808 809 
+	907 908 909 
+Key Pressed : d
+	 TopLeft is : (9 , 40)
+	BottomRight is : (9 , 42)
+here
+	940 
+	1040 
+	1140 
+Key Pressed : d
+	 TopLeft is : (7 , 7)
+	BottomRight is : (9 , 9)
+	707 708 709 
+	807 808 809 
+	907 908 909 
+Key Pressed : d
+	 TopLeft is : (9 , 41)
+	BottomRight is : (9 , 43)
+here
+	941 
+	1041 
+	1141 
+Key Pressed : d
+	 TopLeft is : (7 , 7)
+	BottomRight is : (9 , 9)
+	707 708 709 
+	807 808 809 
+	907 908 909 
+Key Pressed : d
+	 TopLeft is : (9 , 42)
+	BottomRight is : (9 , 44)
+here
+	942 
+	1042 
+	1142 
+Key Pressed : d
+	 TopLeft is : (7 , 7)
+	BottomRight is : (9 , 9)
+	707 708 709 
+	807 808 809 
+	907 908 909 
+Key Pressed : d
+	 TopLeft is : (9 , 43)
+	BottomRight is : (9 , 45)
+here
+	943 
+	1043 
+	1143 
+Key Pressed : d
+	 TopLeft is : (7 , 7)
+	BottomRight is : (9 , 9)
+	707 708 709 
+	807 808 809 
+	907 908 909 
+Key Pressed : d
+	 TopLeft is : (9 , 44)
+	BottomRight is : (9 , 46)
+here
+	944 
+	1044 
+	1144 
+Key Pressed : d
+	 TopLeft is : (7 , 7)
+	BottomRight is : (9 , 9)
+	707 708 709 
+	807 808 809 
+	907 908 909 
+Key Pressed : d
+	 TopLeft is : (9 , 45)
+	BottomRight is : (9 , 47)
+here
+	945 
+	1045 
+	1145 
+Key Pressed : d
+	 TopLeft is : (7 , 7)
+	BottomRight is : (9 , 9)
+	707 708 709 
+	807 808 809 
+	907 908 909 
+Key Pressed : d
+	 TopLeft is : (9 , 46)
+	BottomRight is : (9 , 48)
+here
+	946 
+	1046 
+	1146 
+Key Pressed : d
+	 TopLeft is : (7 , 7)
+	BottomRight is : (9 , 9)
+	707 708 709 
+	807 808 809 
+	907 908 909 
+Key Pressed : d
+	 TopLeft is : (9 , 47)
+	BottomRight is : (9 , 49)
+here
+	947 
+	1047 
+	1147 
+Key Pressed : d
+	 TopLeft is : (7 , 7)
+	BottomRight is : (9 , 9)
+	707 708 709 
+	807 808 809 
+	907 908 909 
+Key Pressed : d
+	 TopLeft is : (9 , 48)
+	BottomRight is : (9 , 50)
+here
+	948 
+	1048 
+	1148 
+Key Pressed : d
+	 TopLeft is : (7 , 7)
+	BottomRight is : (9 , 9)
+	707 708 709 
+	807 808 809 
+	907 908 909 
+Key Pressed : d
+	 TopLeft is : (9 , 49)
+	BottomRight is : (9 , 51)
+here
+	949 
+	1049 
+	1149 
+Key Pressed : d
+	 TopLeft is : (7 , 7)
+	BottomRight is : (9 , 9)
+	707 708 709 
+	807 808 809 
+	907 908 909 
+Key Pressed : d
+	 TopLeft is : (9 , 50)
+	BottomRight is : (9 , 52)
+here
+	950 
+	1050 
+	1150 
+Key Pressed : d
+	 TopLeft is : (7 , 7)
+	BottomRight is : (9 , 9)
+	707 708 709 
+	807 808 809 
+	907 908 909 
+Key Pressed : d
+	 TopLeft is : (9 , 51)
+	BottomRight is : (9 , 53)
+here
+	951 
+	1051 
+	1151 
+Key Pressed : d
+	 TopLeft is : (7 , 7)
+	BottomRight is : (9 , 9)
+	707 708 709 
+	807 808 809 
+	907 908 909 
+Key Pressed : d
+	 TopLeft is : (9 , 52)
+	BottomRight is : (9 , 54)
+here
+	952 
+	1052 
+	1152 
+Key Pressed : d
+	 TopLeft is : (7 , 7)
+	BottomRight is : (9 , 9)
+	707 708 709 
+	807 808 809 
+	907 908 909 
+Key Pressed : d
+	 TopLeft is : (9 , 53)
+	BottomRight is : (9 , 55)
+here
+	953 
+	1053 
+	1153 
+Key Pressed : d
+	 TopLeft is : (7 , 7)
+	BottomRight is : (9 , 9)
+	707 708 709 
+	807 808 809 
+	907 908 909 
+Key Pressed : a
+	 TopLeft is : (9 , 53)
+	BottomRight is : (9 , 55)
+here
+	953 
+	1053 
+	1153 
+Key Pressed : a
+	 TopLeft is : (7 , 7)
+	BottomRight is : (9 , 9)
+	707 708 709 
+	807 808 809 
+	907 908 909 
+Key Pressed : a
+	 TopLeft is : (9 , 53)
+	BottomRight is : (9 , 55)
+here
+	953 
+	1053 
+	1153 
+Key Pressed : a
+	 TopLeft is : (7 , 7)
+	BottomRight is : (9 , 9)
+	707 708 709 
+	807 808 809 
+	907 908 909 
+Key Pressed : a
+	 TopLeft is : (9 , 52)
+	BottomRight is : (9 , 54)
+here
+	952 
+	1052 
+	1152 
+Key Pressed : a
+	 TopLeft is : (7 , 6)
+	BottomRight is : (9 , 8)
+	706 707 708 
+	806 807 808 
+	906 907 908 
+Key Pressed : a
+	 TopLeft is : (9 , 51)
+	BottomRight is : (9 , 53)
+here
+	951 
+	1051 
+	1151 
+Key Pressed : a
+	 TopLeft is : (7 , 5)
+	BottomRight is : (9 , 7)
+	705 706 707 
+	805 806 807 
+	905 906 907 
+Key Pressed : a
+	 TopLeft is : (9 , 50)
+	BottomRight is : (9 , 52)
+here
+	950 
+	1050 
+	1150 
+Key Pressed : a
+	 TopLeft is : (7 , 4)
+	BottomRight is : (9 , 6)
+	704 705 706 
+	804 805 806 
+	904 905 906 
+Key Pressed : a
+	 TopLeft is : (9 , 49)
+	BottomRight is : (9 , 51)
+here
+	949 
+	1049 
+	1149 
+Key Pressed : a
+	 TopLeft is : (7 , 3)
+	BottomRight is : (9 , 5)
+	703 704 705 
+	803 804 805 
+	903 904 905 
+Key Pressed : a
+	 TopLeft is : (9 , 48)
+	BottomRight is : (9 , 50)
+here
+	948 
+	1048 
+	1148 
+Key Pressed : a
+	 TopLeft is : (7 , 2)
+	BottomRight is : (9 , 4)
+	702 703 704 
+	802 803 804 
+	902 903 904 
+Key Pressed : a
+	 TopLeft is : (9 , 47)
+	BottomRight is : (9 , 49)
+here
+	947 
+	1047 
+	1147 
+Key Pressed : a
+	 TopLeft is : (7 , 1)
+	BottomRight is : (9 , 3)
+	701 702 703 
+	801 802 803 
+	901 902 903 
+Key Pressed : a
+	 TopLeft is : (9 , 46)
+	BottomRight is : (9 , 48)
+here
+	946 
+	1046 
+	1146 
+Key Pressed : a
+	 TopLeft is : (7 , 0)
+	BottomRight is : (9 , 2)
+	700 701 702 
+	800 801 802 
+	900 901 902 
+Key Pressed : a
+	 TopLeft is : (9 , 45)
+	BottomRight is : (9 , 47)
+here
+	945 
+	1045 
+	1145 
+Key Pressed : a
+	 TopLeft is : (7 , 0)
+	BottomRight is : (9 , 2)
+	700 701 702 
+	800 801 802 
+	900 901 902 
+Key Pressed : a
+	 TopLeft is : (9 , 44)
+	BottomRight is : (9 , 46)
+here
+	944 
+	1044 
+	1144 
+Key Pressed : a
+	 TopLeft is : (7 , 0)
+	BottomRight is : (9 , 2)
+	700 701 702 
+	800 801 802 
+	900 901 902 
+Key Pressed : a
+	 TopLeft is : (9 , 43)
+	BottomRight is : (9 , 45)
+here
+	943 
+	1043 
+	1143 
+Key Pressed : a
+	 TopLeft is : (7 , 0)
+	BottomRight is : (9 , 2)
+	700 701 702 
+	800 801 802 
+	900 901 902 
+Key Pressed : a
+	 TopLeft is : (9 , 42)
+	BottomRight is : (9 , 44)
+here
+	942 
+	1042 
+	1142 
+Key Pressed : a
+	 TopLeft is : (7 , 0)
+	BottomRight is : (9 , 2)
+	700 701 702 
+	800 801 802 
+	900 901 902 
+Key Pressed : a
+	 TopLeft is : (9 , 41)
+	BottomRight is : (9 , 43)
+here
+	941 
+	1041 
+	1141 
+Key Pressed : a
+	 TopLeft is : (7 , 0)
+	BottomRight is : (9 , 2)
+	700 701 702 
+	800 801 802 
+	900 901 902 
+Key Pressed : a
+	 TopLeft is : (9 , 40)
+	BottomRight is : (9 , 42)
+here
+	940 
+	1040 
+	1140 
+Key Pressed : a
+	 TopLeft is : (7 , 0)
+	BottomRight is : (9 , 2)
+	700 701 702 
+	800 801 802 
+	900 901 902 
+Key Pressed : a
+	 TopLeft is : (9 , 39)
+	BottomRight is : (9 , 41)
+here
+	939 
+	1039 
+	1139 
+Key Pressed : a
+	 TopLeft is : (7 , 0)
+	BottomRight is : (9 , 2)
+	700 701 702 
+	800 801 802 
+	900 901 902 
+Key Pressed : a
+	 TopLeft is : (9 , 38)
+	BottomRight is : (9 , 40)
+here
+	938 
+	1038 
+	1138 
+Key Pressed : a
+	 TopLeft is : (7 , 0)
+	BottomRight is : (9 , 2)
+	700 701 702 
+	800 801 802 
+	900 901 902 
+Key Pressed : a
+	 TopLeft is : (9 , 37)
+	BottomRight is : (9 , 39)
+here
+	937 
+	1037 
+	1137 
+Key Pressed : a
+	 TopLeft is : (7 , 0)
+	BottomRight is : (9 , 2)
+	700 701 702 
+	800 801 802 
+	900 901 902 
+Key Pressed : a
+	 TopLeft is : (9 , 36)
+	BottomRight is : (9 , 38)
+here
+	936 
+	1036 
+	1136 
+Key Pressed : a
+	 TopLeft is : (7 , 0)
+	BottomRight is : (9 , 2)
+	700 701 702 
+	800 801 802 
+	900 901 902 
+Key Pressed : a
+	 TopLeft is : (9 , 35)
+	BottomRight is : (9 , 37)
+here
+	935 
+	1035 
+	1135 
+Key Pressed : a
+	 TopLeft is : (7 , 0)
+	BottomRight is : (9 , 2)
+	700 701 702 
+	800 801 802 
+	900 901 902 
+Key Pressed : a
+	 TopLeft is : (9 , 34)
+	BottomRight is : (9 , 36)
+here
+	934 
+	1034 
+	1134 
+Key Pressed : a
+	 TopLeft is : (7 , 0)
+	BottomRight is : (9 , 2)
+	700 701 702 
+	800 801 802 
+	900 901 902 
+Key Pressed : a
+	 TopLeft is : (9 , 33)
+	BottomRight is : (9 , 35)
+here
+	933 
+	1033 
+	1133 
+Key Pressed : a
+	 TopLeft is : (7 , 0)
+	BottomRight is : (9 , 2)
+	700 701 702 
+	800 801 802 
+	900 901 902 
+Key Pressed : a
+	 TopLeft is : (9 , 32)
+	BottomRight is : (9 , 34)
+here
+	932 
+	1032 
+	1132 
+Key Pressed : a
+	 TopLeft is : (7 , 0)
+	BottomRight is : (9 , 2)
+	700 701 702 
+	800 801 802 
+	900 901 902 
+Key Pressed : a
+	 TopLeft is : (9 , 31)
+	BottomRight is : (9 , 33)
+here
+	931 
+	1031 
+	1131 
+Key Pressed : a
+	 TopLeft is : (7 , 0)
+	BottomRight is : (9 , 2)
+	700 701 702 
+	800 801 802 
+	900 901 902 
+Key Pressed : a
+	 TopLeft is : (9 , 30)
+	BottomRight is : (9 , 32)
+here
+	930 
+	1030 
+	1130 
+Key Pressed : a
+	 TopLeft is : (7 , 0)
+	BottomRight is : (9 , 2)
+	700 701 702 
+	800 801 802 
+	900 901 902 
+Key Pressed : a
+	 TopLeft is : (9 , 29)
+	BottomRight is : (9 , 31)
+here
+	929 
+	1029 
+	1129 
+Key Pressed : a
+	 TopLeft is : (7 , 0)
+	BottomRight is : (9 , 2)
+	700 701 702 
+	800 801 802 
+	900 901 902 
+Key Pressed : a
+	 TopLeft is : (9 , 28)
+	BottomRight is : (9 , 30)
+here
+	928 
+	1028 
+	1128 
+Key Pressed : a
+	 TopLeft is : (7 , 0)
+	BottomRight is : (9 , 2)
+	700 701 702 
+	800 801 802 
+	900 901 902 
+Key Pressed : w
+	 TopLeft is : (8 , 28)
+	BottomRight is : (8 , 30)
+here
+	828 
+	928 
+	1028 
+Key Pressed : w
+	 TopLeft is : (7 , 0)
+	BottomRight is : (9 , 2)
+	700 701 702 
+	800 801 802 
+	900 901 902 
+Key Pressed : a
+	 TopLeft is : (8 , 27)
+	BottomRight is : (8 , 29)
+here
+	827 
+	927 
+	1027 
+Key Pressed : a
+	 TopLeft is : (7 , 0)
+	BottomRight is : (9 , 2)
+	700 701 702 
+	800 801 802 
+	900 901 902 
+Key Pressed : a
+	 TopLeft is : (8 , 26)
+	BottomRight is : (8 , 28)
+here
+	826 
+	926 
+	1026 
+Key Pressed : a
+	 TopLeft is : (7 , 0)
+	BottomRight is : (9 , 2)
+	700 701 702 
+	800 801 802 
+	900 901 902 
+Key Pressed : a
+	 TopLeft is : (8 , 25)
+	BottomRight is : (8 , 27)
+here
+	825 
+	925 
+	1025 
+Key Pressed : a
+	 TopLeft is : (7 , 0)
+	BottomRight is : (9 , 2)
+	700 701 702 
+	800 801 802 
+	900 901 902 
+Key Pressed : a
+	 TopLeft is : (8 , 24)
+	BottomRight is : (8 , 26)
+here
+	824 
+	924 
+	1024 
+Key Pressed : a
+	 TopLeft is : (7 , 0)
+	BottomRight is : (9 , 2)
+	700 701 702 
+	800 801 802 
+	900 901 902 
+Key Pressed : a
+	 TopLeft is : (8 , 23)
+	BottomRight is : (8 , 25)
+here
+	823 
+	923 
+	1023 
+Key Pressed : a
+	 TopLeft is : (7 , 0)
+	BottomRight is : (9 , 2)
+	700 701 702 
+	800 801 802 
+	900 901 902 
+Key Pressed : a
+	 TopLeft is : (8 , 22)
+	BottomRight is : (8 , 24)
+here
+	822 
+	922 
+	1022 
+Key Pressed : a
+	 TopLeft is : (7 , 0)
+	BottomRight is : (9 , 2)
+	700 701 702 
+	800 801 802 
+	900 901 902 
+Key Pressed : a
+	 TopLeft is : (8 , 21)
+	BottomRight is : (8 , 23)
+here
+	821 
+	921 
+	1021 
+Key Pressed : a
+	 TopLeft is : (7 , 0)
+	BottomRight is : (9 , 2)
+	700 701 702 
+	800 801 802 
+	900 901 902 
+Key Pressed : a
+	 TopLeft is : (8 , 20)
+	BottomRight is : (8 , 22)
+here
+	820 
+	920 
+	1020 
+Key Pressed : a
+	 TopLeft is : (7 , 0)
+	BottomRight is : (9 , 2)
+	700 701 702 
+	800 801 802 
+	900 901 902 
+Key Pressed : a
+	 TopLeft is : (8 , 19)
+	BottomRight is : (8 , 21)
+here
+	819 
+	919 
+	1019 
+Key Pressed : a
+	 TopLeft is : (7 , 0)
+	BottomRight is : (9 , 2)
+	700 701 702 
+	800 801 802 
+	900 901 902 
+Key Pressed : a
+	 TopLeft is : (8 , 18)
+	BottomRight is : (8 , 20)
+here
+	818 
+	918 
+	1018 
+Key Pressed : a
+	 TopLeft is : (7 , 0)
+	BottomRight is : (9 , 2)
+	700 701 702 
+	800 801 802 
+	900 901 902 
+Key Pressed : a
+	 TopLeft is : (8 , 17)
+	BottomRight is : (8 , 19)
+here
+	817 
+	917 
+	1017 
+Key Pressed : a
+	 TopLeft is : (7 , 0)
+	BottomRight is : (9 , 2)
+	700 701 702 
+	800 801 802 
+	900 901 902 
+Key Pressed : a
+	 TopLeft is : (8 , 16)
+	BottomRight is : (8 , 18)
+here
+	816 
+	916 
+	1016 
+Key Pressed : a
+	 TopLeft is : (7 , 0)
+	BottomRight is : (9 , 2)
+	700 701 702 
+	800 801 802 
+	900 901 902 
+Key Pressed : a
+	 TopLeft is : (8 , 15)
+	BottomRight is : (8 , 17)
+here
+	815 
+	915 
+	1015 
+Key Pressed : a
+	 TopLeft is : (7 , 0)
+	BottomRight is : (9 , 2)
+	700 701 702 
+	800 801 802 
+	900 901 902 
+Key Pressed : a
+	 TopLeft is : (8 , 14)
+	BottomRight is : (8 , 16)
+here
+	814 
+	914 
+	1014 
+Key Pressed : a
+	 TopLeft is : (7 , 0)
+	BottomRight is : (9 , 2)
+	700 701 702 
+	800 801 802 
+	900 901 902 
+Key Pressed : a
+	 TopLeft is : (8 , 13)
+	BottomRight is : (8 , 15)
+here
+	813 
+	913 
+	1013 
+Key Pressed : a
+	 TopLeft is : (7 , 0)
+	BottomRight is : (9 , 2)
+	700 701 702 
+	800 801 802 
+	900 901 902 
+Key Pressed : a
+	 TopLeft is : (8 , 12)
+	BottomRight is : (8 , 14)
+here
+	812 
+	912 
+	1012 
+Key Pressed : a
+	 TopLeft is : (7 , 0)
+	BottomRight is : (9 , 2)
+	700 701 702 
+	800 801 802 
+	900 901 902 
+Key Pressed : a
+	 TopLeft is : (8 , 11)
+	BottomRight is : (8 , 13)
+here
+	811 
+	911 
+	1011 
+Key Pressed : a
+	 TopLeft is : (7 , 0)
+	BottomRight is : (9 , 2)
+	700 701 702 
+	800 801 802 
+	900 901 902 
+Key Pressed : a
+	 TopLeft is : (8 , 10)
+	BottomRight is : (8 , 12)
+here
+	810 
+	910 
+	1010 
+Key Pressed : a
+	 TopLeft is : (7 , 0)
+	BottomRight is : (9 , 2)
+	700 701 702 
+	800 801 802 
+	900 901 902 
+Key Pressed : a
+	 TopLeft is : (8 , 9)
+	BottomRight is : (8 , 11)
+here
+	809 
+	909 
+	1009 
+Key Pressed : a
+	 TopLeft is : (7 , 0)
+	BottomRight is : (9 , 2)
+	700 701 702 
+	800 801 802 
+	900 901 902 
+Key Pressed : a
+	 TopLeft is : (8 , 8)
+	BottomRight is : (8 , 10)
+here
+	808 
+	908 
+	1008 
+Key Pressed : a
+	 TopLeft is : (7 , 0)
+	BottomRight is : (9 , 2)
+	700 701 702 
+	800 801 802 
+	900 901 902 
+Key Pressed : a
+	 TopLeft is : (8 , 7)
+	BottomRight is : (8 , 9)
+here
+	807 
+	907 
+	1007 
+Key Pressed : a
+	 TopLeft is : (7 , 0)
+	BottomRight is : (9 , 2)
+	700 701 702 
+	800 801 802 
+	900 901 902 
+Key Pressed : a
+	 TopLeft is : (8 , 6)
+	BottomRight is : (8 , 8)
+here
+	806 
+	906 
+	1006 
+Key Pressed : a
+	 TopLeft is : (7 , 0)
+	BottomRight is : (9 , 2)
+	700 701 702 
+	800 801 802 
+	900 901 902 
+Key Pressed : a
+	 TopLeft is : (8 , 5)
+	BottomRight is : (8 , 7)
+here
+	805 
+	905 
+	1005 
+Key Pressed : a
+	 TopLeft is : (7 , 0)
+	BottomRight is : (9 , 2)
+	700 701 702 
+	800 801 802 
+	900 901 902 
+Key Pressed : a
+	 TopLeft is : (8 , 4)
+	BottomRight is : (8 , 6)
+here
+	804 
+	904 
+	1004 
+Key Pressed : a
+	 TopLeft is : (7 , 0)
+	BottomRight is : (9 , 2)
+	700 701 702 
+	800 801 802 
+	900 901 902 
+Key Pressed : a
+	 TopLeft is : (8 , 3)
+	BottomRight is : (8 , 5)
+here
+	803 
+	903 
+	1003 
+Key Pressed : a
+	 TopLeft is : (7 , 0)
+	BottomRight is : (9 , 2)
+	700 701 702 
+	800 801 802 
+	900 901 902 
+Key Pressed : a
+	 TopLeft is : (8 , 2)
+	BottomRight is : (8 , 4)
+here
+	802 
+	902 
+	1002 
+Key Pressed : a
+	 TopLeft is : (7 , 0)
+	BottomRight is : (9 , 2)
+	700 701 702 
+	800 801 802 
+	900 901 902 
+Key Pressed : a
+	 TopLeft is : (8 , 1)
+	BottomRight is : (8 , 3)
+here
+	801 
+	901 
+	1001 
+Key Pressed : a
+	 TopLeft is : (7 , 0)
+	BottomRight is : (9 , 2)
+	700 701 702 
+	800 801 802 
+	900 901 902 
+Key Pressed : a
+	 TopLeft is : (8 , 0)
+	BottomRight is : (8 , 2)
+here
+	800 
+	900 
+	1000 
+Key Pressed : a
+	 TopLeft is : (7 , 0)
+	BottomRight is : (9 , 2)
+	700 701 702 
+	800 801 802 
+	900 901 902 
+Key Pressed : a
+	 TopLeft is : (8 , 0)
+	BottomRight is : (8 , 2)
+here
+	800 
+	900 
+	1000 
+Key Pressed : a
+	 TopLeft is : (7 , 0)
+	BottomRight is : (9 , 2)
+	700 701 702 
+	800 801 802 
+	900 901 902 
+Key Pressed : a
+	 TopLeft is : (8 , 0)
+	BottomRight is : (8 , 2)
+here
+	800 
+	900 
+	1000 
+Key Pressed : a
+	 TopLeft is : (7 , 0)
+	BottomRight is : (9 , 2)
+	700 701 702 
+	800 801 802 
+	900 901 902 
+Key Pressed : a
+	 TopLeft is : (8 , 0)
+	BottomRight is : (8 , 2)
+here
+	800 
+	900 
+	1000 
+Key Pressed : a
+	 TopLeft is : (7 , 0)
+	BottomRight is : (9 , 2)
+	700 701 702 
+	800 801 802 
+	900 901 902 
+Key Pressed : a
+	 TopLeft is : (8 , 0)
+	BottomRight is : (8 , 2)
+here
+	800 
+	900 
+	1000 
+Key Pressed : a
+	 TopLeft is : (7 , 0)
+	BottomRight is : (9 , 2)
+	700 701 702 
+	800 801 802 
+	900 901 902 
+Key Pressed : a
+	 TopLeft is : (8 , 0)
+	BottomRight is : (8 , 2)
+here
+	800 
+	900 
+	1000 
+Key Pressed : a
+	 TopLeft is : (7 , 0)
+	BottomRight is : (9 , 2)
+	700 701 702 
+	800 801 802 
+	900 901 902 
+Key Pressed : a
+	 TopLeft is : (8 , 0)
+	BottomRight is : (8 , 2)
+here
+	800 
+	900 
+	1000 
+Key Pressed : a
+	 TopLeft is : (7 , 0)
+	BottomRight is : (9 , 2)
+	700 701 702 
+	800 801 802 
+	900 901 902 
+Key Pressed : a
+	 TopLeft is : (8 , 0)
+	BottomRight is : (8 , 2)
+here
+	800 
+	900 
+	1000 
+Key Pressed : a
+	 TopLeft is : (7 , 0)
+	BottomRight is : (9 , 2)
+	700 701 702 
+	800 801 802 
+	900 901 902 
+Key Pressed : a
+	 TopLeft is : (8 , 0)
+	BottomRight is : (8 , 2)
+here
+	800 
+	900 
+	1000 
+Key Pressed : a
+	 TopLeft is : (7 , 0)
+	BottomRight is : (9 , 2)
+	700 701 702 
+	800 801 802 
+	900 901 902 
+Key Pressed : a
+	 TopLeft is : (8 , 0)
+	BottomRight is : (8 , 2)
+here
+	800 
+	900 
+	1000 
+Key Pressed : a
+	 TopLeft is : (7 , 0)
+	BottomRight is : (9 , 2)
+	700 701 702 
+	800 801 802 
+	900 901 902 
+Key Pressed : a
+	 TopLeft is : (8 , 0)
+	BottomRight is : (8 , 2)
+here
+	800 
+	900 
+	1000 
+Key Pressed : a
+	 TopLeft is : (7 , 0)
+	BottomRight is : (9 , 2)
+	700 701 702 
+	800 801 802 
+	900 901 902 
+Key Pressed : a
+	 TopLeft is : (8 , 0)
+	BottomRight is : (8 , 2)
+here
+	800 
+	900 
+	1000 
+Key Pressed : a
+	 TopLeft is : (7 , 0)
+	BottomRight is : (9 , 2)
+	700 701 702 
+	800 801 802 
+	900 901 902 
+Key Pressed : a
+	 TopLeft is : (8 , 0)
+	BottomRight is : (8 , 2)
+here
+	800 
+	900 
+	1000 
+Key Pressed : a
+	 TopLeft is : (7 , 0)
+	BottomRight is : (9 , 2)
+	700 701 702 
+	800 801 802 
+	900 901 902 
+Key Pressed : a
+	 TopLeft is : (8 , 0)
+	BottomRight is : (8 , 2)
+here
+	800 
+	900 
+	1000 
+Key Pressed : a
+	 TopLeft is : (7 , 0)
+	BottomRight is : (9 , 2)
+	700 701 702 
+	800 801 802 
+	900 901 902 
+Key Pressed : a
+	 TopLeft is : (8 , 0)
+	BottomRight is : (8 , 2)
+here
+	800 
+	900 
+	1000 
+Key Pressed : a
+	 TopLeft is : (7 , 0)
+	BottomRight is : (9 , 2)
+	700 701 702 
+	800 801 802 
+	900 901 902 
+Key Pressed : a
+	 TopLeft is : (8 , 0)
+	BottomRight is : (8 , 2)
+here
+	800 
+	900 
+	1000 
+Key Pressed : a
+	 TopLeft is : (7 , 0)
+	BottomRight is : (9 , 2)
+	700 701 702 
+	800 801 802 
+	900 901 902 
+Key Pressed : a
+	 TopLeft is : (8 , 0)
+	BottomRight is : (8 , 2)
+here
+	800 
+	900 
+	1000 
+Key Pressed : a
+	 TopLeft is : (7 , 0)
+	BottomRight is : (9 , 2)
+	700 701 702 
+	800 801 802 
+	900 901 902 
+Key Pressed : a
+	 TopLeft is : (8 , 0)
+	BottomRight is : (8 , 2)
+here
+	800 
+	900 
+	1000 
+Key Pressed : a
+	 TopLeft is : (7 , 0)
+	BottomRight is : (9 , 2)
+	700 701 702 
+	800 801 802 
+	900 901 902 
+Key Pressed : a
+	 TopLeft is : (8 , 0)
+	BottomRight is : (8 , 2)
+here
+	800 
+	900 
+	1000 
+Key Pressed : a
+	 TopLeft is : (7 , 0)
+	BottomRight is : (9 , 2)
+	700 701 702 
+	800 801 802 
+	900 901 902 
+Key Pressed : a
+	 TopLeft is : (8 , 0)
+	BottomRight is : (8 , 2)
+here
+	800 
+	900 
+	1000 
+Key Pressed : a
+	 TopLeft is : (7 , 0)
+	BottomRight is : (9 , 2)
+	700 701 702 
+	800 801 802 
+	900 901 902 
+Key Pressed : a
+	 TopLeft is : (8 , 0)
+	BottomRight is : (8 , 2)
+here
+	800 
+	900 
+	1000 
+Key Pressed : a
+	 TopLeft is : (7 , 0)
+	BottomRight is : (9 , 2)
+	700 701 702 
+	800 801 802 
+	900 901 902 
+Key Pressed : a
+	 TopLeft is : (8 , 0)
+	BottomRight is : (8 , 2)
+here
+	800 
+	900 
+	1000 
+Key Pressed : a
+	 TopLeft is : (7 , 0)
+	BottomRight is : (9 , 2)
+	700 701 702 
+	800 801 802 
+	900 901 902 
+Key Pressed : a
+	 TopLeft is : (8 , 0)
+	BottomRight is : (8 , 2)
+here
+	800 
+	900 
+	1000 
+Key Pressed : a
+	 TopLeft is : (7 , 0)
+	BottomRight is : (9 , 2)
+	700 701 702 
+	800 801 802 
+	900 901 902 
+Key Pressed : w
+	 TopLeft is : (7 , 0)
+	BottomRight is : (7 , 2)
+here
+	700 
+	800 
+	900 
+Key Pressed : w
+	 TopLeft is : (7 , 0)
+	BottomRight is : (9 , 2)
+	700 701 702 
+	800 801 802 
+	900 901 902 
+Key Pressed : w
+	 TopLeft is : (6 , 0)
+	BottomRight is : (6 , 2)
+here
+	600 
+	700 
+	800 
+Key Pressed : w
+	 TopLeft is : (6 , 0)
+	BottomRight is : (8 , 2)
+	600 601 602 
+	700 701 702 
+	800 801 802 
+Key Pressed : w
+	 TopLeft is : (5 , 0)
+	BottomRight is : (5 , 2)
+here
+	500 
+	600 
+	700 
+Key Pressed : w
+	 TopLeft is : (5 , 0)
+	BottomRight is : (7 , 2)
+	500 501 502 
+	600 601 602 
+	700 701 702 
+Key Pressed : w
+	 TopLeft is : (4 , 0)
+	BottomRight is : (4 , 2)
+here
+	400 
+	500 
+	600 
+Key Pressed : w
+	 TopLeft is : (4 , 0)
+	BottomRight is : (6 , 2)
+	400 401 402 
+	500 501 502 
+	600 601 602 
+Key Pressed : w
+	 TopLeft is : (3 , 0)
+	BottomRight is : (3 , 2)
+here
+	300 
+	400 
+	500 
+Key Pressed : w
+	 TopLeft is : (3 , 0)
+	BottomRight is : (5 , 2)
+	300 301 302 
+	400 401 402 
+	500 501 502 
+Key Pressed : w
+	 TopLeft is : (2 , 0)
+	BottomRight is : (2 , 2)
+here
+	200 
+	300 
+	400 
+Key Pressed : w
+	 TopLeft is : (2 , 0)
+	BottomRight is : (4 , 2)
+	200 201 202 
+	300 301 302 
+	400 401 402 
+Key Pressed : w
+	 TopLeft is : (1 , 0)
+	BottomRight is : (1 , 2)
+here
+	100 
+	200 
+	300 
+Key Pressed : w
+	 TopLeft is : (1 , 0)
+	BottomRight is : (3 , 2)
+	100 101 102 
+	200 201 202 
+	300 301 302 
+Key Pressed : w
+	 TopLeft is : (0 , 0)
+	BottomRight is : (0 , 2)
+here
+	0 
+	100 
+	200 
+Key Pressed : w
+	 TopLeft is : (0 , 0)
+	BottomRight is : (2 , 2)
+	0 1 2 
+	100 101 102 
+	200 201 202 
+Key Pressed : w
+	 TopLeft is : (0 , 0)
+	BottomRight is : (0 , 2)
+here
+	0 
+	100 
+	200 
+Key Pressed : w
+	 TopLeft is : (0 , 0)
+	BottomRight is : (2 , 2)
+	0 1 2 
+	100 101 102 
+	200 201 202 
+Key Pressed : w
+	 TopLeft is : (0 , 0)
+	BottomRight is : (0 , 2)
+here
+	0 
+	100 
+	200 
+Key Pressed : w
+	 TopLeft is : (0 , 0)
+	BottomRight is : (2 , 2)
+	0 1 2 
+	100 101 102 
+	200 201 202 
+Key Pressed : w
+	 TopLeft is : (0 , 0)
+	BottomRight is : (0 , 2)
+here
+	0 
+	100 
+	200 
+Key Pressed : w
+	 TopLeft is : (0 , 0)
+	BottomRight is : (2 , 2)
+	0 1 2 
+	100 101 102 
+	200 201 202 
+Key Pressed : w
+	 TopLeft is : (0 , 0)
+	BottomRight is : (0 , 2)
+here
+	0 
+	100 
+	200 
+Key Pressed : w
+	 TopLeft is : (0 , 0)
+	BottomRight is : (2 , 2)
+	0 1 2 
+	100 101 102 
+	200 201 202 
+Key Pressed : w
+	 TopLeft is : (0 , 0)
+	BottomRight is : (0 , 2)
+here
+	0 
+	100 
+	200 
+Key Pressed : w
+	 TopLeft is : (0 , 0)
+	BottomRight is : (2 , 2)
+	0 1 2 
+	100 101 102 
+	200 201 202 
+Key Pressed : w
+	 TopLeft is : (0 , 0)
+	BottomRight is : (0 , 2)
+here
+	0 
+	100 
+	200 
+Key Pressed : w
+	 TopLeft is : (0 , 0)
+	BottomRight is : (2 , 2)
+	0 1 2 
+	100 101 102 
+	200 201 202 
+Key Pressed : w
+	 TopLeft is : (0 , 0)
+	BottomRight is : (0 , 2)
+here
+	0 
+	100 
+	200 
+Key Pressed : w
+	 TopLeft is : (0 , 0)
+	BottomRight is : (2 , 2)
+	0 1 2 
+	100 101 102 
+	200 201 202 
+Key Pressed : w
+	 TopLeft is : (0 , 0)
+	BottomRight is : (0 , 2)
+here
+	0 
+	100 
+	200 
+Key Pressed : w
+	 TopLeft is : (0 , 0)
+	BottomRight is : (2 , 2)
+	0 1 2 
+	100 101 102 
+	200 201 202 
+Key Pressed : w
+	 TopLeft is : (0 , 0)
+	BottomRight is : (0 , 2)
+here
+	0 
+	100 
+	200 
+Key Pressed : w
+	 TopLeft is : (0 , 0)
+	BottomRight is : (2 , 2)
+	0 1 2 
+	100 101 102 
+	200 201 202 
+Key Pressed : w
+	 TopLeft is : (0 , 0)
+	BottomRight is : (0 , 2)
+here
+	0 
+	100 
+	200 
+Key Pressed : w
+	 TopLeft is : (0 , 0)
+	BottomRight is : (2 , 2)
+	0 1 2 
+	100 101 102 
+	200 201 202 
+Key Pressed : w
+	 TopLeft is : (0 , 0)
+	BottomRight is : (0 , 2)
+here
+	0 
+	100 
+	200 
+Key Pressed : w
+	 TopLeft is : (0 , 0)
+	BottomRight is : (2 , 2)
+	0 1 2 
+	100 101 102 
+	200 201 202 
+Key Pressed : w
+	 TopLeft is : (0 , 0)
+	BottomRight is : (0 , 2)
+here
+	0 
+	100 
+	200 
+Key Pressed : w
+	 TopLeft is : (0 , 0)
+	BottomRight is : (2 , 2)
+	0 1 2 
+	100 101 102 
+	200 201 202 
